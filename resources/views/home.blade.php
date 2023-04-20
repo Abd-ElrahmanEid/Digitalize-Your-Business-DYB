@@ -79,6 +79,7 @@
         <div class="navbar-overlay"></div>
     </div>
 </nav>
+{{--end of nav--}}
 <div class="container-fluid bg-overlay">
     <div class="row text-center mt-5">
         <div class="col background-content">
@@ -97,11 +98,50 @@
 </div>
     <br>
     <br>
-<div class="container">
+{{--end of the background overlay--}}
+
+{{--services provide section--}}
+<div class="container service-section">
     <div class="row">
-        <div class="col services">
-            <span class="line"></span> <p class="text-success">what we can do for you</p>
+        <div class="col-12 services">
+            <p class="text-success" style="font-size: 20px"> <i class="fa-solid fa-minus" style="width:2%"></i>what we can do for you</p>
         </div>
+        <div class="col-12">
+            <h1 class="text-uppercase">
+                services provide<br>
+                for you
+            </h1>
+        </div>
+    </div><br><br><br>
+    <div class="row row-cols-1 row-cols-md-3 g-4 sec-cards">
+        <div class="col">
+            <div class="card h-100">
+                <i class="fa-solid fa-building fa-2x ms-4 p-3 mt-2 text-success"></i>
+                <div class="card-body">
+                    <h5 class="card-title p-2 ms-3 text-uppercase">business <br>strategy</h5>
+                    <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <i class="fa-solid fa-laptop fa-2x ms-4 p-3 mt-2 text-success"></i>
+                <div class="card-body">
+                    <h5 class="card-title p-2 ms-3 text-uppercase">website</br>development</h5>
+                    <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <i class="fa-solid fa-lightbulb fa-2x ms-4 p-3 mt-2 text-success"></i>
+                <div class="card-body">
+                    <h5 class="card-title p-2 ms-3 text-uppercase">marketing & <br>reporting</h5>
+                    <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 </div>
 

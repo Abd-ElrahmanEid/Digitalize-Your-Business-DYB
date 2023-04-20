@@ -100,13 +100,15 @@
     color: white;
 }
 .services .line{
-    /*width: 100px;*/
-    /*width: 10px;*/
-    /*border: 2px solid black;*/
-    /*margin-left: 20px;*/
-    width: 45px;
-    border: 2px solid black;
-    margin-left: 20px;
-    cursor: pointer;
+    /*margin-left: 5px;*/
+    width: 30px;
+    border: 2px solid green;
+    /*position: relative;*/
+    /*left: 1%;*/
+    /*cursor: pointer;*/
+}
+.service-section .sec-cards h5{
+    font-size: 35px;
+    line-height: 52px;
 }
 
