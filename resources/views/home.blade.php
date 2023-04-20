@@ -159,12 +159,33 @@
             <img src="{{asset("images/2.jpg")}}" class="img-thumbnail">
         </div>
     </div>
-</div>
+</div><br><br><br>
 {{--end of images group--}}
 
-{{--start of grt to know us--}}
-
-
+{{--start of get to know us--}}
+<div class="container knowus" style="height: 50vh">
+    <div class="row" style="height: 50vh">
+        <div class="col-3 top">
+            <img src="{{asset("images/2.jpg")}}" height="100">
+        </div>
+        <div class="col-6 text-center center">
+            <p class="text-success" style="font-size: 20px"> <i class="fa-solid fa-minus" style="width:4%"></i>get to know us</p><br>
+            <h1 class="text-uppercase">
+                leading the best<br>digital <span class="text-success">agency</span> in town
+            </h1><br>
+            <p class="text-capitalize">
+                web design in a powerful way of just not an only<br>
+                profession,however, in a passion for our company. we <br>
+                have to a tendency to believe the idea that smart looking <br>
+                of any website is the first impression
+            </p>
+        </div>
+        <div class="col-3 down">
+            <img src="{{asset("images/2.jpg")}}" height="100">
+        </div>
+    </div>
+</div>
+{{--end of get to know us--}}
 
 
 

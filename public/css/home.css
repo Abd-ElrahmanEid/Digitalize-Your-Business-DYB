@@ -116,3 +116,25 @@
     line-height: 52px;
 }
 /*end of services card*/
+
+.knowus .top{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.knowus .top img{
+    width: 80%;
+    height: 50%;
+}
+.knowus .center{
+    padding-top: 60px;
+}
+.knowus .down img{
+    width: 80%;
+    height: 50%;
+}
+.knowus .down{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
