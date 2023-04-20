@@ -15,17 +15,17 @@
 
 }
 
-/* .nav-item {
+.nav-item {
     margin: 0 8px;
     font-size: 15px;
     transition: all 0.4s;
     font-family: 'Roboto', sans-serif;
 
-} */
+}
 
-/* .nav-item a:hover:not(.nav-btn):not(.protect-btn), .nav-item a:active {
+.nav-item a:hover:not(.nav-btn):not(.protect-btn), .nav-item a:active {
     color: #2a81ea;
-} */
+}
 
 .nav-btn:hover {
     color: #fff;
@@ -84,6 +84,9 @@
     display: block;
 }
 /*end of nav*/
+
+
+
 .bg-overlay {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/2.jpg");
     background-repeat: no-repeat;

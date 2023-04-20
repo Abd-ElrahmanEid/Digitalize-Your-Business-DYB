@@ -1,4 +1,3 @@
-<!
 <html>
 <head>
     <meta charset="UTF-8">
@@ -17,6 +16,7 @@
     <title>home</title>
 </head>
 
+{{--Navbar-----------------------------------------------------------------------------------------------------------------}}
 
 <nav class="navbar navbar-expand-lg navbar-light mt-3 mb-2" >
     <!-- Container wrapper -->
@@ -79,7 +79,8 @@
         <div class="navbar-overlay"></div>
     </div>
 </nav>
-{{--end of nav--}}
+{{--end of nav------------------------------------------------------------------------------}}
+
 <div class="container-fluid bg-overlay">
     <div class="row text-center mt-5">
         <div class="col background-content">
