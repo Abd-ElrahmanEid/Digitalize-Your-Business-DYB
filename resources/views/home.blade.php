@@ -185,10 +185,21 @@
             <img src="{{asset("images/2.jpg")}}" height="100">
         </div>
     </div>
-</div>
+</div><br><br>
 {{--end of get to know us--}}
-
-
+{{--start of the overlay background fun fact--}}
+<div class="container bg-overlayy">
+    <div class="row text-center">
+        <div class="col">
+            <p class="text-success text-uppercase" style="font-size: 20px"> <i class="fa-solid fa-minus" style="width:2%"></i>fun fact</p><br>
+           <h1 class="text-uppercase">
+               we're standout<br>
+               experts in the business
+           </h1>
+        </div>
+    </div>
+</div>
+{{--end of the overlay background fun fact--}}
 
 
 

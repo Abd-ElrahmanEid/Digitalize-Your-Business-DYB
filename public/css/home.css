@@ -120,6 +120,7 @@
 }
 /*end of services card*/
 
+/*start of the get to know us*/
 .knowus .top{
     display: flex;
     justify-content: center;
@@ -141,3 +142,16 @@
     justify-content: center;
     align-items: flex-end;
 }
+/*end of get to know us*/
+
+/*start of the overlay background fun fact*/
+.bg-overlayy{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 350px;
+    padding-top: 95px;
+}
+/*end of the overlay background fun fact*/
