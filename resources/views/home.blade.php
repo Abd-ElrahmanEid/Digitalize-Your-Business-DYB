@@ -143,10 +143,26 @@
         </div>
     </div>
     </div>
+</div><br><br><br>
+{{--end of service provide section--}}
+
+{{--start of the images group--}}
+<div class="container">
+    <div class="row">
+       <div class="col-4">
+           <img src="{{asset("images/2.jpg")}}" class="img-thumbnail">
+       </div>
+        <div class="col-4">
+            <img src="{{asset("images/2.jpg")}}" class="img-thumbnail">
+        </div>
+        <div class="col-4">
+            <img src="{{asset("images/2.jpg")}}" class="img-thumbnail">
+        </div>
+    </div>
 </div>
+{{--end of images group--}}
 
-
-
+{{--start of grt to know us--}}
 
 
 

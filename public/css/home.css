@@ -83,7 +83,7 @@
 .navbar-display{
     display: block;
 }
-
+/*end of nav*/
 .bg-overlay {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/2.jpg");
     background-repeat: no-repeat;
@@ -99,6 +99,10 @@
     background-color: black;
     color: white;
 }
+/*end of background overlay*/
+
+
+/*start of services card*/
 .services .line{
     /*margin-left: 5px;*/
     width: 30px;
@@ -111,4 +115,4 @@
     font-size: 35px;
     line-height: 52px;
 }
-
+/*end of services card*/
