@@ -1,4 +1,13 @@
 @extends('layouts.user')
+@section('link_css')
+    <link rel="stylesheet" href="{{asset("css/home.css")}}">
+@endsection
+
+@section('title')
+<title>Home</title>
+@endsection
+
+
 @section('user')
     <div class="container-fluid bg-overlay">
         <div class="row text-center mt-5">
@@ -39,7 +48,7 @@
                     <i class="fa-solid fa-building fa-2x ms-4 p-3 mt-2 text-success"></i>
                     <div class="card-body">
                         <h5 class="card-title p-2 ms-3 text-uppercase">business <br>strategy</h5>
-                        <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is so longer.</p>
                     </div>
                 </div>
             </div>
@@ -47,8 +56,8 @@
                 <div class="card h-100">
                     <i class="fa-solid fa-laptop fa-2x ms-4 p-3 mt-2 text-success"></i>
                     <div class="card-body">
-                        <h5 class="card-title p-2 ms-3 text-uppercase">website</br>development</h5>
-                        <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title p-2 ms-3 text-uppercase">website<br>development</h5>
+                        <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is so longer.</p>
                     </div>
                 </div>
             </div>
@@ -57,26 +66,26 @@
                     <i class="fa-solid fa-lightbulb fa-2x ms-4 p-3 mt-2 text-success"></i>
                     <div class="card-body">
                         <h5 class="card-title p-2 ms-3 text-uppercase">marketing & <br>reporting</h5>
-                        <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is so longer.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div><br><br><br>
+    <br><br><br>
     {{--end of service provide section--}}
 
     {{--start of the images group--}}
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <img src="{{asset("images/2.jpg")}}" class="img-thumbnail">
+                <img src="{{asset("images/2.jpg")}}" alt="#" class="img-thumbnail">
             </div>
             <div class="col-4">
-                <img src="{{asset("images/2.jpg")}}" class="img-thumbnail">
+                <img src="{{asset("images/2.jpg")}}" alt="#" class="img-thumbnail">
             </div>
             <div class="col-4">
-                <img src="{{asset("images/2.jpg")}}" class="img-thumbnail">
+                <img src="{{asset("images/2.jpg")}}" alt="#" class="img-thumbnail">
             </div>
         </div>
     </div><br><br><br>
@@ -86,7 +95,7 @@
     <div class="container knowus" style="height: 50vh">
         <div class="row" style="height: 50vh">
             <div class="col-3 top">
-                <img src="{{asset("images/2.jpg")}}" height="100">
+                <img src="{{asset("images/2.jpg")}}" alt="#" height="100">
             </div>
             <div class="col-6 text-center center">
                 <p class="text-success" style="font-size: 20px"> <i class="fa-solid fa-minus" style="width:4%"></i>get to know us</p><br>
@@ -101,7 +110,7 @@
                 </p>
             </div>
             <div class="col-3 down">
-                <img src="{{asset("images/2.jpg")}}" height="100">
+                <img src="{{asset("images/2.jpg")}}" alt="#" height="100">
             </div>
         </div>
     </div><br><br>
@@ -117,7 +126,7 @@
                 </h1>
             </div>
         </div>
-    </div>
+    </div> <br><br><br><br>
     {{--end of the overlay background fun fact--}}
 
 @endsection

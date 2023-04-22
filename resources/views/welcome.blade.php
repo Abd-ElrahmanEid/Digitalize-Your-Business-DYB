@@ -8,7 +8,7 @@
     <!-- links Bootstrap ( online - for navbar)-->
     <link href="{{asset("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css")}}" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset("css/bootstrap.min.css")}}">
-    <link rel="stylesheet" href="{{asset("css/about.css")}}">
+    <link rel="stylesheet" href="{{asset("css/welcome.css")}}">
 
     <!-- link Font Awesome -->
     <link rel="stylesheet" href="{{asset("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css")}}" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{asset("https://unpkg.com/aos@next/dist/aos.css")}}" />
 
 
-    <title>About</title>
+    <title>Welcome</title>
 </head>
 <body>
 
@@ -329,6 +329,8 @@
 
     </div>
 </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 
 
@@ -337,13 +339,48 @@
 
 
 
+<div class="container-fluid bg-dark">
+
+    <div class="container py-5">
+
+        <div class="text-center">
+
+            <h1 class="fs-2 fw-bold text-light ">DYB</h1> <br>
+            <P class="text-light">
+                We are a full-service digital agency focused on the customer. Your company has a unique narrative to tell,<br>and if told correctly, it can drive sales and customer loyalty. We are masters in using cross-channel storytelling to grow companies.</P>
+
+
+        </div> <br><hr class="text-light"><br><br>
 
 
 
+        <div class="row justify-content-center">
+
+            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
+                <i class="fa-brands fa-facebook" style="font-size: 30px; color: white;"></i>
+            </div>
+
+            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
+                <i class="fa-brands fa-instagram" style="font-size: 30px; color: white;"></i>
+            </div>
 
 
+            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
+                <i class="fa-brands fa-github" style="font-size: 30px; color: white;"></i>
+            </div>
 
 
+            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white;">
+                <i class="fa-brands fa-linkedin" style="font-size: 30px; color: white;"></i>
+            </div>
+
+        </div> <br><br>
+
+        <p class="text-light fw-lighter text-center">
+            <span>&#169</span> Copyright 2023 | All Rights Reserved | <span class="fw-bold">Digitize Your Business ( DYB )</span>
+        </p>
+    </div>
+</div>
 
 
 
