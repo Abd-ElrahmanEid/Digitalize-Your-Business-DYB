@@ -16,4 +16,8 @@ class Admin extends Model
         'description',
         'image'
     ];
+
+    public function users(){
+        return $this->belongsToMany(User::class);
+    }
 }

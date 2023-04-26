@@ -14,7 +14,6 @@ class Service extends Model
         'service',
         'phone',
         'description',
-        'paystatus',
         'annualrevenues',
         'date',
         'user_id',

@@ -13,14 +13,15 @@ return new class extends Migration
     {
         Schema::create('services', function (Blueprint $table) {
             $table->id();
+
             $table->string('companyname')->default('unknown');
             $table->string('service');
             $table->integer('phone');
             $table->longText('description')->nullable();
-            $table->enum('paystatus',['cash','card']);
             $table->integer('annualrevenues');
             $table->date('date');
             $table->foreignId('user_id')->constrained()->onUpdate('cascade')->onDelete('cascade');
+
             $table->timestamps();
         });
     }

@@ -45,13 +45,20 @@ class User extends Authenticatable
     public function feedbacks(){
         return $this->hasMany(Feedback::class);
     }
+
     public function communicates(){
         return $this->hasMany(Communicate::class);
     }
+
     public function services(){
         return $this->hasMany(Service::class);
     }
+
     public function payments(){
         return $this->hasMany(Payment::class);
+    }
+
+    public function admins(){
+        return $this->belongsToMany(Admin::class);
     }
 }
