@@ -19,7 +19,6 @@ Route::get('/', function () {
 });
 
 
-
 //  Home page
 Route::get('home',function (){
    return view('home');
@@ -29,6 +28,14 @@ Route::get('home',function (){
 Route::get('services',function (){
     return view('services');
 });
+
+
+//  Contact Us page
+Route::get('contactus',function (){
+    return view('contactus');
+});
+
+
 
 
 
