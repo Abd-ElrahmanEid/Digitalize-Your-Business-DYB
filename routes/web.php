@@ -34,8 +34,10 @@ Route::get('services',function (){
 Route::get('contactus',function (){
     return view('contactus');
 });
-
-
+// portfolio page
+Route::get('portfolio',function (){
+    return view('portfolio');
+});
 
 
 
