@@ -19,6 +19,9 @@ return new class extends Migration
             $table->integer('phone');
             $table->longText('description')->nullable();
             $table->integer('annualrevenues');
+            $table->string('companywebsite');
+            $table->longText('comments')->nullable();
+            $table->time('time');
             $table->date('date');
             $table->foreignId('user_id')->constrained()->onUpdate('cascade')->onDelete('cascade');
 

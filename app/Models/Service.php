@@ -15,6 +15,9 @@ class Service extends Model
         'phone',
         'description',
         'annualrevenues',
+        'companywebsite',
+        'comments',
+        'time',
         'date',
         'user_id',
     ];
