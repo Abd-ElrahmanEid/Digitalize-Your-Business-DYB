@@ -158,7 +158,7 @@
 
 
         <div class="col-xl-5 mt-xl-5 col-lg-6 mt-md-5 mt-sm-5 mb-sm-5 square" style="border-left: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">
-            <h2>UI/UX Design</h2>
+            <h2>Graphic Design</h2>
             <ul style="font-size: 20px; padding-top: 15px; padding-left: 60px;">
                 <li>Planning & Initiation</li>
                 <li>Creation & Designing</li>
@@ -191,7 +191,7 @@
 
 
         <div class="col-xl-5 mt-xl-5 col-lg-5 mt-md-5 mt-sm-5 square" style="border-right: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">
-            <h2>Searsh Engine Optimization</h2>
+            <h2>Cloud Computing</h2>
             <ul style="font-size: 20px; padding-top: 15px; padding-left: 60px;">
                 <li>Planning & Initiation</li>
                 <li>Creation & Designing</li>
