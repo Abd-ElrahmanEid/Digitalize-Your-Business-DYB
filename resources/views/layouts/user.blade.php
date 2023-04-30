@@ -63,13 +63,13 @@
                         <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Our work</a>
+                        <a class="nav-link active" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Request your service</a>
+                        <a class="nav-link active" href="#">Get service</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Contact us</a>

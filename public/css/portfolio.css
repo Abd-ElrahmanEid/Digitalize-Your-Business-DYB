@@ -86,134 +86,19 @@
 .navbar-display{
     display: block;
 }
-/*-----------------------------end of nav bar---------------------------------------------*/
 
-/*--------------------start of the first portfolio---------------*/
-.por-1{
-    height: 85vh;
-    width: 98%;
-    position: relative;
-    left: 1%;
-}
+/*------------------portfolio----------------------------------------------------------------------------------------------------------*/
 
-.por-1-img-1{
-    background-image:  url("../images/1.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 15px 0px 0px 0px;
-}
-.por-1-img-2{
-    background-image:  url("../images/2.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 0px 0px 15px;
+@media(max-width: 576px){
+    .square{
+        width: 90%;
+        margin-bottom: 30px;
+
+    }
 }
 
-.por-1-img-3{
-    background-image:  url("../images/2.jpg");
-    background-position:center center ;
-    background-size: cover;
-}
-.por-1-img-4{
-    background-image:  url("../images/laptop.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 15px 0px 0px;
-}
-
-.por-1-img-5{
-    background-image:  url("../images/1.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 0px 15px 0px;
-}
-
-/*--------------------end of the first portfolio---------------*/
-
-/*--------------------start of the second portfolio---------------*/
-
-.por-2{
-    height: 85vh;
-    width: 98%;
-    position: relative;
-    left: 1%;
-}
-
-.por-2-img-1{
-    background-image:  url("../images/1.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 15px 0px 0px 0px;
-}
-.por-2-img-2{
-    background-image:  url("../images/2.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 0px 0px 15px;
-}
-
-.por-2-img-3{
-    background-image:  url("../images/2.jpg");
-    background-position:center center ;
-    background-size: cover;
-}
-.por-2-img-4{
-    background-image:  url("../images/laptop.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 15px 0px 0px;
-}
-
-.por-2-img-5{
-    background-image:  url("../images/1.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 0px 15px 0px;
-}
-/*--------------------end of the second portfolio---------------*/
 
 
-/*--------------------start of the third portfolio---------------*/
-
-.por-3{
-    height: 85vh;
-    width: 98%;
-    position: relative;
-    left: 1%;
-}
-
-.por-3-img-1{
-    background-image:  url("../images/1.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 15px 0px 0px 0px;
-}
-.por-3-img-2{
-    background-image:  url("../images/2.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 0px 0px 15px;
-}
-
-.por-3-img-3{
-    background-image:  url("../images/2.jpg");
-    background-position:center center ;
-    background-size: cover;
-}
-.por-3-img-4{
-    background-image:  url("../images/laptop.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 15px 0px 0px;
-}
-
-.por-3-img-5{
-    background-image:  url("../images/1.jpg");
-    background-position:center center ;
-    background-size: cover;
-    border-radius: 0px 0px 15px 0px;
-}
-/*--------------------end of the third portfolio---------------*/
 
 /*------------------let'S talk----------------------------------------------------------------------------------------------------------*/
 
@@ -228,7 +113,7 @@
 .obiqlue:after {
     content: "";
     display: block;
-    background: white;
+    background: green;
     height: 200px;
     width: 8000px;
     position: absolute;
@@ -259,15 +144,19 @@
 
 /*------------------footer----------------------------------------------------------------------------------------------------------*/
 
+
+
 @media(max-width: 576px){
     .foot{
         margin-bottom: 35px;
+
     }
-}
 
-
-@media(max-width: 576px){
     .feed{
         width: 100%;
+
     }
 }
+
+
+
