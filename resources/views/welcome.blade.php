@@ -89,10 +89,15 @@
 
 
 
-<!-- section two ----- About us------------------------------------------------------------------------------------------------------------------>
-<h2 class="intro" style="font-family: Georgia, 'Times New Roman', Times, serif;"><span> ABOUT US</span></h2>
+<!-- section two ----- who we are------------------------------------------------------------------------------------------------------------------>
+<div class="d-flex justify-content-center">
+    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+    <h2 style="font-family: Georgia, 'Times New Roman'; text-align: center;">Who We Are ?</h2>
+</div>
+
+
 <p style="text-align: center; margin-top: 40px;">
-    As a Web Development Services we are Committed to Building Custom Web Solutions <br>that Drive Business Success.
+    As a Digital Agency Services we are Committed to Building Custom Digital Solutions <br>that Drive Business Success.
 </p> <br><br>
 
 
@@ -111,9 +116,9 @@
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-sm-3 pdiv" style="text-align: justify;" >
 
             <p style="padding-top: 10px;">
-                At our web development services agency, we specialize in creating custom web solutions that help businesses achieve their online goals. Our team of experienced web developers, designers, and digital strategists work collaboratively to build websites, web applications, and e-commerce solutions that meet our clients' unique needs and deliver results.<br><br>
+                At our Digital services agency, we specialize in creating custom solutions that help businesses achieve their online goals. Our team of experienced web developers, designers, and digital strategists work collaboratively to build websites, web applications, and e-commerce solutions that meet our clients' unique needs and deliver results.<br><br>
 
-                Our mission is to provide our clients with the tools they need to succeed in the online marketplace. We are dedicated to staying up-to-date with the latest web technologies and trends to ensure that we are always delivering the highest quality work. We believe that every business deserves a website that reflects their brand's personality and effectively communicates their message to their target audience.
+                Our mission is to provide our clients with the tools they need to succeed in the online marketplace. We are dedicated to staying up-to-date with the latest web technologies and trends to ensure that we are always delivering the highest quality work. We believe that every business deserves a digital solutions that reflects their brand's personality and effectively communicates their message to their target audience.
             </p>
 
             <button class="get_in_touch">
@@ -123,16 +128,20 @@
 
     </div>
 
-</div> <br><br><br><br><br><br>
+</div> <br><br><br><br><br><br><br>
 
 
 
 
 <!-- section three  ------Why choose us ?! --------------------------------------------------------------------------------------------------->
 
-<h2 class="intro" style="font-family: Georgia, 'Times New Roman', Times, serif;"><span> Why Choose Us</span></h2>
+<div class="d-flex justify-content-center">
+    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+    <h2 style="font-family: Georgia, 'Times New Roman'; text-align: center;">Why Choose Us ?</h2>
+</div>
+
 <p style="text-align: center; margin-top: 40px;">
-    Thank you for considering us as your web developer. We believe that my experience, skills, and <br> dedication set me apart and make me the ideal choice for your project.
+    Thank you for considering us as a digital agency. We believe that our experience, skills, and <br> dedication set us apart and make mus the ideal choice for your project.
 </p> <br><br><br><br>
 
 
@@ -142,14 +151,14 @@
 
         <div  class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
-            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 200px;">
-                <i class="fa-solid fa-house" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
+            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
+                <i class="fa-solid fa-flask" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
             <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Expertise</h5>
-            <p style="padding-bottom: 40px;">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi neque, repellat dignissimos alias saepe quidem dolorum veritatis quo tempore ullam. Velit minus laboriosam dolore mollitia deserunt rem error sapiente vitae?
+            <p style="padding-bottom: 40px; margin-top: 25px">
+                We have extensive experience in designing and developing websites for clients s across various industries.
             </p>
 
         </div>
@@ -157,14 +166,14 @@
 
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5  mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 mt-sm-5 mb-xs-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
-            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 200px;">
-                <i class="fa-solid fa-house" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
+            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
+                <i class="fa-solid fa-bell-concierge" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
-            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Expertise</h5>
-            <p style="padding-bottom: 40px;">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi neque, repellat dignissimos alias saepe quidem dolorum veritatis quo tempore ullam. Velit minus laboriosam dolore mollitia deserunt rem error sapiente vitae?
+            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Attention to Detail</h5>
+            <p style="padding-bottom: 40px; margin-top: 25px">
+                We take pride in my work, and pay attention to every detail to ensure that the end product of the highest quality
             </p>
 
         </div>
@@ -172,14 +181,14 @@
 
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 mt-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
-            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 200px;">
-                <i class="fa-solid fa-house" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
+            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
+                <i class="fa-solid fa-handshake" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
-            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Expertise</h5>
-            <p style="padding-bottom: 40px;">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi neque, repellat dignissimos alias saepe quidem dolorum veritatis quo tempore ullam. Velit minus laboriosam dolore mollitia deserunt rem error sapiente vitae?
+            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Communication</h5>
+            <p style="padding-bottom: 40px; margin-top: 25px;">
+                We believe that clear and constant communication is crucial for the success of any project
             </p>
 
         </div>
@@ -188,14 +197,14 @@
 
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mt-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
-            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 200px;">
-                <i class="fa-solid fa-house" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
+            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
+                <i class="fa-solid fa-mug-hot" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
-            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Expertise</h5>
-            <p style="padding-bottom: 40px;">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi neque, repellat dignissimos alias saepe quidem dolorum veritatis quo tempore ullam. Velit minus laboriosam dolore mollitia deserunt rem error sapiente vitae?
+            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Customer Service</h5>
+            <p style="padding-bottom: 40px; margin-top: 25px">
+                As developer team. We understand the importance of building long-term relationships with my clients.
             </p>
 
         </div>
@@ -231,7 +240,7 @@
 
         <div class="col-xl-3 col-lg-6 mt-md-5 mt-sm-5 years">
 
-            <h1 style="color: white; text-align: center; font-weight: bold;">3+<br><span style="font-size: 36px;">Rating</span></h1>
+            <h1 style="color: white; text-align: center; font-weight: bold;">3+<br><span style="font-size: 36px;">Feedback</span></h1>
 
         </div>
 
@@ -244,8 +253,10 @@
 <!-- section five  ------ Our Services ---------------------------------------------------------------------------------------------------->
 
 
-<h2 class="intro" style="font-family: Georgia, 'Times New Roman', Times, serif;"><span> Our Services</span></h2>
-<br><br><br><br>
+<div class="d-flex justify-content-center">
+    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+    <h2 style="font-family: Georgia, 'Times New Roman'; text-align: center;">Our Services</h2>
+</div><br><br><br><br>
 
 <div class="container-fluid">
     <div class="row" style="display: flex; justify-content: space-evenly;">
@@ -253,36 +264,20 @@
 
 
 
-        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;">
+        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px">
 
             <span class="line"></span>
-            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">UX Design</p>
-
-        </div>
-
-        <div class="col-xl-4  col-lg-6 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;">
-
-            <span class="line"></span>
-            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">UX Design</p>
+            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Web Development</p>
 
         </div>
 
 
 
 
-
-        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;">
-
-            <span class="line"></span>
-            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">UX Design</p>
-
-        </div>
-
-
-        <div class="col-xl-3 col-lg-6 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;">
+        <div class="col-xl-4  col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;border-radius: 10px">
 
             <span class="line"></span>
-            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">UX Design</p>
+            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Mobile Development</p>
 
         </div>
 
@@ -290,19 +285,35 @@
 
 
 
-        <div class="col-xl-4 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;">
+        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px">
 
             <span class="line"></span>
-            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">UX Design</p>
+            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Digital Marketing</p>
 
         </div>
 
-        <div class="col-xl-3 col-lg-6 col-md-10 col-sm-10 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;">
+
+
+
+
+        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px">
 
             <span class="line"></span>
-            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">UX Design</p>
+            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Graphic Design</p>
 
         </div>
+
+
+
+
+
+        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px">
+
+            <span class="line"></span>
+            <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Cloud Computing</p>
+
+        </div>
+
 
 
 
@@ -329,7 +340,7 @@
 
     </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -339,7 +350,7 @@
 
 
 
-<div class="container-fluid bg-dark">
+<div class="container-fluid" style="background-color: black">
 
     <div class="container py-5">
 

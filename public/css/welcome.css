@@ -89,20 +89,20 @@
 
 
 
-/* -----------------------------------About US-------------------------------------------------------------------------------------------- */
-.intro {
-    width: 80%;
-    text-align: center;
-    border-bottom: 1px solid #000;
-    line-height: 0.1em;
-    margin: auto;
+/* -----------------------------------Who we are-------------------------------------------------------------------------------------------- */
+/*.intro {*/
+/*    width: 80%;*/
+/*    text-align: center;*/
+/*    border-bottom: 1px solid #000;*/
+/*    line-height: 0.1em;*/
+/*    margin: auto;*/
 
-}
+/*}*/
 
-.intro span {
-    background: white;
-    padding:0 10px;
-}
+/*.intro span {*/
+/*    background: white;*/
+/*    padding:0 10px;*/
+/*}*/
 
 @media(max-width: 576px){
 
@@ -177,7 +177,7 @@
 }
 
 .services .line{
-    width: 45px;
+    width: 30px;
     border: 2px solid black;
     margin-left: 20px;
     cursor: pointer;
@@ -197,10 +197,9 @@
 
 
 .obiqlue {
-    background-color: black;
+    background-color: lightcoral;
     width: 100%;
     position: absolute;
-    /* left: 0; */
     overflow: hidden;
     height:400px;
   }
@@ -208,7 +207,7 @@
   .obiqlue:after {
       content: "";
       display: block;
-      background: white;
+      background: black;
       height: 200px;
       width: 8000px;
       position: absolute;

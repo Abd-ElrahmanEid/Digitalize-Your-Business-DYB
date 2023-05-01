@@ -9,6 +9,8 @@
 
 
 @section('user')
+
+    {{-------background overlay---------------------------------------------------}}
     <div class="container-fluid bg-overlay">
         <div class="row text-center mt-5">
             <div class="col background-content">
@@ -19,7 +21,7 @@
                 <span class="text-capitalize">
             we help you to achieve your goals by customizing what is best for you<br> with care and productivity.
         </span><br><br>
-                <a class="btn  text-uppercase">discover
+                <a class="btn text-uppercase">discover
                     <i class="fa-solid fa-arrow-right-long ms-3"></i>
                 </a>
             </div>
@@ -27,40 +29,46 @@
     </div>
     <br>
     <br>
-    {{--end of the background overlay--}}
 
-    {{--services provide section--}}
+
+
+    {{----------services provide section-----------------------------------------------------------------------------------------}}
     <div class="container service-section">
         <div class="row">
-            <div class="col-12 services">
-                <p class="text-success" style="font-size: 20px"> <i class="fa-solid fa-minus" style="width:2%"></i>what we can do for you</p>
+            <div class="d-flex justify-content-center">
+                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+                <h2 style="text-align: center;">What we can do for you </h2>
             </div>
             <div class="col-12">
-                <h1 class="text-uppercase">
-                    services provide<br>
-                    for you
-                </h1>
+                <p class="text-center fs-5">Most Popular For you</p>
             </div>
-        </div><br><br><br>
+               <br><br><br>
+
+
+
         <div class="row row-cols-1 row-cols-md-3 g-4 sec-cards">
             <div class="col">
                 <div class="card h-100">
                     <i class="fa-solid fa-building fa-2x ms-4 p-3 mt-2 text-success"></i>
                     <div class="card-body">
-                        <h5 class="card-title p-2 ms-3 text-uppercase">business <br>strategy</h5>
+                        <h5 class="card-title p-2 ms-3 text-uppercase">Web <br>Development</h5>
                         <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is so longer.</p>
                     </div>
                 </div>
             </div>
+
+
             <div class="col">
                 <div class="card h-100">
                     <i class="fa-solid fa-laptop fa-2x ms-4 p-3 mt-2 text-success"></i>
                     <div class="card-body">
-                        <h5 class="card-title p-2 ms-3 text-uppercase">website<br>development</h5>
+                        <h5 class="card-title p-2 ms-3 text-uppercase">Digital<br>Marketing</h5>
                         <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is so longer.</p>
                     </div>
                 </div>
             </div>
+
+
             <div class="col">
                 <div class="card h-100">
                     <i class="fa-solid fa-lightbulb fa-2x ms-4 p-3 mt-2 text-success"></i>
@@ -75,21 +83,26 @@
     <br><br><br>
     {{--end of service provide section--}}
 
-    {{--start of the images group--}}
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <img src="{{asset("images/2.jpg")}}" alt="#" class="img-thumbnail">
+
+
+
+{{--    start of the images group--}}
+    <div class="container-fluid ">
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-xl-3" style=" height:50vh; background-image: url({{"images/2.jpg"}}); background-size: cover">
             </div>
-            <div class="col-4">
-                <img src="{{asset("images/2.jpg")}}" alt="#" class="img-thumbnail">
+            <div class="col-xl-4" style="background-image: url({{"images/2.jpg"}}); background-size: cover">
             </div>
-            <div class="col-4">
-                <img src="{{asset("images/2.jpg")}}" alt="#" class="img-thumbnail">
+            <div class="col-xl-3" style="background-image: url({{"images/2.jpg"}}); background-size: cover">
             </div>
         </div>
-    </div><br><br><br>
-    {{--end of images group--}}
+    </div><br><br><br><br><br><br>
+{{--    end of images group--}}
+
+
+
+
+
 
     {{--start of get to know us--}}
     <div class="container knowus" style="height: 50vh">
@@ -115,6 +128,16 @@
         </div>
     </div><br><br>
     {{--end of get to know us--}}
+
+
+
+
+
+
+
+
+
+
     {{--start of the overlay background fun fact--}}
     <div class="container-fluid bg-overlayy">
         <div class="row text-center">
@@ -127,6 +150,5 @@
             </div>
         </div>
     </div> <br><br><br><br>
-    {{--end of the overlay background fun fact--}}
 
 @endsection

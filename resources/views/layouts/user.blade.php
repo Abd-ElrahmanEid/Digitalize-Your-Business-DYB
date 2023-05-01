@@ -92,7 +92,7 @@
 
 {{--footer------------------------------------------------------------------------------}}
 
-<div class="container-fluid bg-dark">
+<div class="container-fluid" style="background-color: black">
 
     <div class="container py-5">
 
