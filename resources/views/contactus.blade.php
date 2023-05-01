@@ -20,7 +20,7 @@
             <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
             <h2>Contact Us</h2>
         </div>
-        <p style="text-align: center; margin-top: 20px; font-size: 18px;">When you choose any of our digital services listed below,<br> you choose a company that is commited about your company's success.</p>
+        <p style="text-align: center; margin-top: 20px; font-size: 18px;">We actively communicate to achieve the best results because Your Successful Partnership is our Goal.<br> Give us a Shout, and we will make you a believer.</p>
 
     </div>
 
@@ -38,18 +38,22 @@
 
                 <div class="square">
 
-                    <div class="dot" ></div>
+                    <div class="dot" >
+                        <i style="font-size: 40px; margin-top: 20px " class="fa-solid fa-handshake-angle"></i>
+                    </div>
 
                     <h4 style="padding-bottom: 20px;">Help & Support</h4>
-                    <p style="padding: 0 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque delectus repudiandae cupiditate cumque! Ea,</p>
+                    <p style="padding: 0 20px;">to make our clients more satisfy we have a quick response of any Help & Support.</p>
 
                 </div>
 
                 <div class="square" >
-                    <div class="dot"></div>
+                    <div class="dot">
+                        <i style="font-size: 40px; margin-top: 20px " class="fa-solid fa-tty"></i>
+                    </div>
 
                     <h4 style="padding-bottom: 20px;">General information</h4>
-                    <p style="padding: 0 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque delectus repudiandae cupiditate cumque! Ea,</p>
+                    <p style="padding: 0 20px;">It’s time to build on your and us’ confidence, commitment, and efficiency in a magnificent period of success.</p>
 
                 </div>
 
@@ -63,13 +67,13 @@
                 <h4 style="padding-top: 50px;  text-align: center;">Quick Find Us</h4> <br>
                 <hr style="width: 90%; margin: auto;"> <br><br>
 
-                <p style="font-size: 22px;  padding-left: 60px;">E-Mail : <br> <span style="font-size: 16px;">Support@dkdkdkd.com</span></p>
+                <p style="font-size: 22px;  padding-left: 60px;">E-Mail : <br> <span style="font-size: 16px;">support@DYB.com</span></p>
 
                 <br>
-                <p style="font-size: 22px;  padding-left: 60px;">Opening Hours : <br> <span style="font-size: 16px;">Support@dkdkdkd.com</span></p>
+                <p style="font-size: 22px;  padding-left: 60px;">Opening Hours : <br> <span style="font-size: 16px;">Saturday-Thursday  9AM : 5PM</span></p>
 
                 <br>
-                <p style="font-size: 22px;  padding-left: 60px;">Address : <br> <span style="font-size: 16px;">Support@dkdkdkd.com</span></p>
+                <p style="font-size: 22px;  padding-left: 60px;">Address : <br> <span style="font-size: 16px;">Business information system - El-Zamalek</span></p>
 
 
             </div>
@@ -147,7 +151,7 @@
                 <i class="fa-solid fa-envelope" style="display: flex; justify-content: center; font-size: 60px; padding-top: 65px;"></i> <br><br>
                 <h2 style="text-align: center;">Gmail</h2> <br>
 
-                <p style="text-align: center;">+880 215 364 571</p>
+                <p style="text-align: center;">support@DYB.com</p>
             </div>
 
 
@@ -155,7 +159,7 @@
                 <i class="fa-sharp fa-solid fa-location-dot" style="display: flex; justify-content: center; font-size: 60px; padding-top: 65px;"></i> <br><br>
                 <h2 style="text-align: center;">Location</h2> <br>
 
-                <p style="text-align: center;">+880 215 364 571</p>
+                <p style="text-align: center;">Business information system - El-Zamalek</p>
             </div>
         </div>
     </div>

@@ -14,7 +14,7 @@
     border: 2px solid;
     color: black;
     width: 90%;
-    margin: 0px 30px;
+    margin: 0 30px;
 
 }
 
@@ -50,7 +50,7 @@
         top: 0;
         left: 0;
         padding: 24px 24px;
-        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+        box-shadow: 0 5px 40px 0 rgb(80 101 142 / 8%);
         transform: translateX(-100%);
         z-index: 999;
         overflow: auto;
@@ -91,7 +91,6 @@
 
 /* -------------------------------------------Help & support ------------------------------------------------------------------------------------------------ */
 .big{
-    background-color: aquamarine;
     height: 70vh;
     display: flex;
     justify-content: space-evenly;
@@ -102,7 +101,7 @@
 .square{
     height: 40vh;
     width: 40vh;
-    background-color: chartreuse;
+    background-color: steelblue;
     position: relative;
     padding-top: 80px;
     text-align: center;
@@ -111,7 +110,7 @@
 .dot{
     width: 13vh;
     height: 12vh;
-    background-color: orange;
+    background-color: goldenrod;
     position: absolute;
     bottom: 250px;
     left: 90px;
@@ -181,6 +180,9 @@
 
 }
 
+
+
+/* --------------Maps------------------------------------------------------------------------------------------------------ */
 
 
 .maps{
@@ -283,7 +285,7 @@
 .cards{
     box-shadow: 1px 3px 5px gray;
     height: 50vh;
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid black;
     border-radius: 25px;
 }
 
@@ -305,7 +307,7 @@
 /*------------------let'S talk----------------------------------------------------------------------------------------------------------*/
 
 .obiqlue {
-    background-color: black;
+    background-color: lightcoral;
     width: 100%;
     position: absolute;
     overflow: hidden;
@@ -315,7 +317,7 @@
 .obiqlue:after {
     content: "";
     display: block;
-    background: green;
+    background: black;
     height: 200px;
     width: 8000px;
     position: absolute;
