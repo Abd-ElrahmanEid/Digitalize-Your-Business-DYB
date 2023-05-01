@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #4a5568;
-}
+
 .nav-btn {
     display: flex;
     align-items: center;
@@ -86,9 +84,11 @@ body{
 .navbar-display{
     display: block;
 }
+
+
+
+
 /*-------------------------------------------------end of nav----------------------------------------------*/
-
-
 
 .bg-overlay {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/1.jpg");
@@ -96,7 +96,7 @@ body{
     background-size: cover;
     background-position: center center;
     color: #fff;
-    height: 85.3vh;
+    height: 95vh;
     padding-top: 95px;
 }
 .bg-overlay .background-content a{
@@ -107,49 +107,53 @@ body{
 }
 
 
+
+
 /*--------------------start of services card--------------------------------------------------------*/
-/*.services .line{*/
-/*    !*margin-left: 5px;*!*/
-/*    width: 30px;*/
-/*    border: 2px solid green;*/
-/*    !*position: relative;*!*/
-/*    !*left: 1%;*!*/
-/*    !*cursor: pointer;*!*/
-/*}*/
-
-
-
 .service-section .sec-cards h5{
     font-size: 35px;
     line-height: 52px;
 }
-/*end of services card*/
 
-/*start of the get to know us*/
-.knowus .top{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-.knowus .top img{
-    width: 80%;
-    height: 50%;
-}
-.knowus .center{
-    padding-top: 60px;
-}
-.knowus .down img{
-    width: 80%;
-    height: 50%;
-}
-.knowus .down{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-/*end of get to know us*/
 
-/*start of the overlay background fun fact*/
+@media(max-width: 576px) {
+    .imgg{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+/*-------------start of the get to know us-----------------------------------*/
+
+@media(max-width: 992px) {
+
+    .bot-div{
+        margin-left: auto;
+    }
+
+}
+
+
+@media(max-width: 576px) {
+
+    .div1{
+        margin-bottom: 70px;
+    }
+
+    .div2{
+        padding-bottom: 70px;
+    }
+
+}
+
+
+
+
+
+/*-------------------------start of the overlay background fun fact-------------------*/
 .bg-overlayy{
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/2.jpg");
     background-repeat: no-repeat;
@@ -159,11 +163,56 @@ body{
     height: 350px;
     padding-top: 95px;
 }
-/*end of the overlay background fun fact*/
 
 
 
-/*----------------footer------------------------------------------*/
+
+
+
+/*----lets talk-----------------------------------------------------------*/
+.obiqlue {
+    background-color: lightcoral;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    height:400px;
+}
+
+.obiqlue:after {
+    content: "";
+    display: block;
+    background: black;
+    height: 200px;
+    width: 8000px;
+    position: absolute;
+    z-index: 1;
+    bottom: -40%;
+    left: 50%;
+    margin-left: -4000px;
+    transform: rotate(2deg);
+}
+
+
+.talk{
+    background-color: white;
+    color: black;
+    padding: 20px 70px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.talk:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    transition: background-color 0.6s ease;
+}
+
+
+
+
+
+/*------------------------------footer------------------------------------------------*/
 @media(max-width: 576px){
     .foot{
         margin-bottom: 35px;

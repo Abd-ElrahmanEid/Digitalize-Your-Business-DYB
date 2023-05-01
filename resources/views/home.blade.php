@@ -35,13 +35,15 @@
     {{----------services provide section-----------------------------------------------------------------------------------------}}
     <div class="container service-section">
         <div class="row">
+
             <div class="d-flex justify-content-center">
                 <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
                 <h2 style="text-align: center;">What we can do for you </h2>
             </div>
             <div class="col-12">
-                <p class="text-center fs-5">Most Popular For you</p>
+                <p class="text-center fs-5">Most Popular Services</p>
             </div>
+        </div>
                <br><br><br>
 
 
@@ -80,38 +82,41 @@
             </div>
         </div>
     </div>
-    <br><br><br>
-    {{--end of service provide section--}}
+    <br><br><br><br><br>
 
 
 
 
-{{--    start of the images group--}}
-    <div class="container-fluid ">
+{{---------------------start of the images group----------------------------------}}
+    <div class="container-fluid">
         <div class="row d-flex justify-content-evenly">
-            <div class="col-xl-3" style=" height:50vh; background-image: url({{"images/2.jpg"}}); background-size: cover">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-11 mb-sm-5 imgg" style=" height:50vh; background-image: url({{"images/3.jpg"}}); background-size: cover">
             </div>
-            <div class="col-xl-4" style="background-image: url({{"images/2.jpg"}}); background-size: cover">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-11 mb-sm-5 imgg" style="height:50vh; background-image: url({{"images/4.jpg"}}); background-size: cover">
             </div>
-            <div class="col-xl-3" style="background-image: url({{"images/2.jpg"}}); background-size: cover">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-11 imgg" style="height:50vh; background-image: url({{"images/5.jpg"}}); background-size: cover">
             </div>
         </div>
-    </div><br><br><br><br><br><br>
-{{--    end of images group--}}
+    </div><br><br><br><br><br><br><br>
 
 
 
 
 
 
-    {{--start of get to know us--}}
-    <div class="container knowus" style="height: 50vh">
-        <div class="row" style="height: 50vh">
-            <div class="col-3 top">
-                <img src="{{asset("images/2.jpg")}}" alt="#" height="100">
+    {{-----------------------------------start of get to know us-------------------------------}}
+    <div class="container">
+        <div class="row" >
+
+            <div class="col-xl-3 col-lg-3 col-md-7 mb-md-4 mb-sm-5 div1" style="height: 50vh; background-color: #bacbe6; background-image: url({{'images/2.jpg'}}); background-size: cover">
             </div>
-            <div class="col-6 text-center center">
-                <p class="text-success" style="font-size: 20px"> <i class="fa-solid fa-minus" style="width:4%"></i>get to know us</p><br>
+
+
+            <div class="col-xl-6 col-lg-6 col-md-10 mb-md-4 mb-sm-5 text-center div2" style="margin: auto;">
+                <div class="d-flex justify-content-center">
+                    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+                    <h4>Get to know us </h4>
+                </div>
                 <h1 class="text-uppercase">
                     leading the best<br>digital <span class="text-success">agency</span> in town
                 </h1><br>
@@ -122,12 +127,12 @@
                     of any website is the first impression
                 </p>
             </div>
-            <div class="col-3 down">
-                <img src="{{asset("images/2.jpg")}}" alt="#" height="100">
+
+
+            <div class="col-xl-3 col-lg-3 col-md-7 bot-div" style="margin-top: auto; height: 40vh; background-color: #bacbe6; background-image: url({{'images/2.jpg'}}); background-size: cover">
             </div>
         </div>
-    </div><br><br>
-    {{--end of get to know us--}}
+    </div><br><br><br><br><br>
 
 
 
@@ -138,11 +143,16 @@
 
 
 
-    {{--start of the overlay background fun fact--}}
+
+
+    {{------------------start of the overlay background fun fact----------------------------}}
     <div class="container-fluid bg-overlayy">
         <div class="row text-center">
             <div class="col">
-                <p class="text-success text-uppercase" style="font-size: 20px"> <i class="fa-solid fa-minus" style="width:2%"></i>fun fact</p><br>
+                <div class="d-flex justify-content-center">
+                    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+                    <h2 style="text-align: center;">Fun Fact </h2>
+                </div>
                 <h1 class="text-uppercase">
                     we're standout<br>
                     experts in the business
@@ -150,5 +160,29 @@
             </div>
         </div>
     </div> <br><br><br><br>
+
+
+
+
+
+
+    {{------lets talk--------------------------}}
+    <!--section three----------------let'S talk----------------------------------------------------------------------------------------->
+
+    <div class="container-fluid">
+        <div class="row obiqlue">
+
+            <div class="col-xl-8 col-lg-7" style="display: flex; justify-content: center; align-items: center;">
+                <h1 style="color: white; text-align: center; padding-bottom: 30px;"><span style="border: 2px solid white; margin-right: 50px;"></span>We’re interested in talking about your business.</h1>
+            </div>
+
+            <div class="col-xl-4 col-lg-5" style="display: flex; justify-content: center; align-items: center;">
+                <button class="talk" >Let’s Talk</button>
+            </div>
+
+
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 @endsection
