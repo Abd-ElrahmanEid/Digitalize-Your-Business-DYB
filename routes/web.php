@@ -19,10 +19,6 @@ Route::get('/', function () {
 });
 
 
-//  Home page
-Route::get('home',function (){
-   return view('home');
-});
 
 //  Services page
 Route::get('services',function (){
