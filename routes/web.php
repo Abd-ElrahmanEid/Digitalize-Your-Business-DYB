@@ -41,14 +41,20 @@ Route::get('portfolio',function (){
     return view('portfolio');
 });
 
-
-
+//admin page
+Route::get('admin',function (){
+    return view('admin.home');
+})->middleware(['Admin','auth']);
 
 
 
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    if (auth()->user()->is_admin){
+        return redirect('admin');
+    }else{
+        return view('dashboard');
+    }
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
