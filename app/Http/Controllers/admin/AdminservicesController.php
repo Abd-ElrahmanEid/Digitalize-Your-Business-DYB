@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ServiceCreateRequest;
+use App\Http\Requests\ServiceUpdateRequest;
 use App\Models\Admin;
 use Illuminate\Http\Request;
 
@@ -43,9 +44,10 @@ class AdminservicesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(int $id)
     {
-        dd('dd');
+        $admin = Admin::where('id',$id)->first();
+        return view('admin.serviceshow',compact('admin'));
     }
 
     /**
@@ -53,15 +55,18 @@ class AdminservicesController extends Controller
      */
     public function edit(string $id)
     {
-        dd('dd');
+        $admins = Admin::where('id',$id)->first();
+        return view('admin.serviceupdate',compact('admins'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(ServiceUpdateRequest $request, int $id)
     {
-        //
+        $admins = Admin::where('id',$id)->first();
+        $admins->update($request->all());
+        return redirect()->route('adminservice.index')->with('success','service updated successfully');
     }
 
     /**
