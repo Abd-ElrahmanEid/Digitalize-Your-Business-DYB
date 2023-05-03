@@ -42,7 +42,7 @@
             <i class="fas fa-bars"></i>
         </button>
 
-
+{{------Put collapse before navbar-collapse-----------------------------}}
         <div class=" navbar-collapse" id="nav">
             <!-- nav item  -->
 
