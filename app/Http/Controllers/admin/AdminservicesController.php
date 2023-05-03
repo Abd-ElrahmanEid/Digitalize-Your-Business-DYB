@@ -72,4 +72,5 @@ class AdminservicesController extends Controller
         Admin::where('id',$id)->delete();
         return redirect()->route('adminservice.index')->with('success','product deleted successfully');
     }
+
 }
