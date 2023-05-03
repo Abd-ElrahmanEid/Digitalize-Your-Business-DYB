@@ -43,7 +43,7 @@
         </button>
 
 
-        <div class="collapse navbar-collapse" id="nav">
+        <div class=" navbar-collapse" id="nav">
             <!-- nav item  -->
 
             <div class="side-nav  ms-auto">

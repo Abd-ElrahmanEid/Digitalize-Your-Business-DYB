@@ -45,7 +45,7 @@ class AdminservicesController extends Controller
      */
     public function show(string $id)
     {
-        //
+        dd('dd');
     }
 
     /**
@@ -53,7 +53,7 @@ class AdminservicesController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        dd('dd');
     }
 
     /**
@@ -67,8 +67,9 @@ class AdminservicesController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(int $id)
     {
-        //
+        Admin::where('id',$id)->delete();
+        return redirect()->route('adminservice.index')->with('success','product deleted successfully');
     }
 }

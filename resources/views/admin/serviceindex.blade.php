@@ -31,19 +31,19 @@
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="btn btn-danger">
-                            delete product
+                            delete service
                         </button>
                     </form>
 
                 </td>
                 <td>
-                    <a href="" class="btn btn-secondary">
-                        show product
+                    <a href="{{route('adminservice.show',$admin->id)}}" class="btn btn-secondary">
+                        show service
                     </a>
                 </td>
                 <td>
-                    <a href="" class="btn btn-secondary">
-                        update product
+                    <a href="{{route('adminservice.edit',$admin->id)}}" class="btn btn-secondary">
+                        update service
                     </a>
                 </td>
             </tr>
