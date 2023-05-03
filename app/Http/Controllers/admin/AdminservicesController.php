@@ -70,7 +70,7 @@ class AdminservicesController extends Controller
     public function destroy(int $id)
     {
         Admin::where('id',$id)->delete();
-        return redirect()->route('adminservice.index')->with('success','product deleted successfully');
+        return redirect()->route('adminservice.index')->with('success','service deleted successfully');
     }
 
 }
