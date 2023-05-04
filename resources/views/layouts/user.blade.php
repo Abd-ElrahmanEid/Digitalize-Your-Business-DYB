@@ -52,11 +52,11 @@
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
 
                     <li class="nav-item">
-                        <a href="#"><i class="fa-solid fa-phone" style="color: black; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone" style="color: #a72355; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
                     </li>
 
                     <li class="nav-item" >
-                        <a href="#"><i class="fa-solid fa-envelope" style="color: black; font-size: 24px; padding-top: 7px; padding-right: 25px;"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope" style="color: #a72355; font-size: 24px; padding-top: 7px; padding-right: 25px;"></i></a>
                     </li>
 
                     <li class="nav-item">
@@ -163,8 +163,8 @@
                     <ol class="fw-bold p-sm-0 pb-sm-2">FEEDBACK</ol>
                     <ol class="fw-lighter pb-2 p-sm-0 ">Tell us your impression about our website </ol>
                     <ol class="pb-2 p-sm-0 ">
-                        <input type="text" style="width: 100%; height: 5vh; margin-top: 15px;"><br>
-                        <button style="background-color: white; color: black; padding: 5px 40px; margin-top: 15px;">
+                        <input type="text" style="width: 100%; height: 5vh; margin-top: 15px; color: black"><br>
+                        <button style="background-color: white; color: black; padding: 5px 40px; margin-top: 15px; border-radius: 15px">
                             Send
                         </button>
                     </ol>

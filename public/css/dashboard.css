@@ -25,7 +25,7 @@
 }
 
 .nav-item a:hover:not(.nav-btn):not(.protect-btn), .nav-item a:active {
-    color: #2a81ea;
+    color: #a72355;
 }
 
 .nav-btn:hover {
@@ -110,11 +110,6 @@
 
 
 /*--------------------start of services card--------------------------------------------------------*/
-.service-section .sec-cards h5{
-    font-size: 35px;
-    line-height: 52px;
-}
-
 
 @media(max-width: 576px) {
     .imgg{
@@ -162,6 +157,8 @@
     color: #fff;
     height: 350px;
     padding-top: 95px;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px ;
 }
 
 

@@ -20,66 +20,65 @@
                 <div class="col background-content">
 
                     <h1 class="text-uppercase" style="font-size: 60px">experience<br> the best digital
-                        <br><span class="text-success">agency</span>
+                        <br><span style="color: #a72355;">agency</span>
                     </h1>
                     <span class="text-capitalize">
             we help you to achieve your goals by customizing what is best for you<br> with care and productivity.
         </span><br><br>
-                    <a class="btn text-uppercase">discover
-                        <i class="fa-solid fa-arrow-right-long ms-3"></i>
+                    <a class="btn text-uppercase " style="color: #a72355; font-weight: bold">discover
+                        <i class="fa-solid fa-arrow-right-long ms-3" style="color: #a72355"></i>
                     </a>
                 </div>
             </div>
         </div>
-        <br>
-        <br>
+        <br><br><br><br>
+
 
 
 
         {{----------services provide section-----------------------------------------------------------------------------------------}}
+        <div class="d-flex justify-content-center">
+            <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid #a72355;"></span>
+            <h2 style="text-align: center;">What we can do for you </h2>
+        </div>
+        <div class="col-12">
+            <p class="text-center fs-5">Most Popular Services</p>
+        </div>
+
+        <br><br>
+
+
         <div class="container service-section">
-            <div class="row">
-
-                <div class="d-flex justify-content-center">
-                    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
-                    <h2 style="text-align: center;">What we can do for you </h2>
-                </div>
-                <div class="col-12">
-                    <p class="text-center fs-5">Most Popular Services</p>
-                </div>
-            </div>
-            <br><br><br>
+            <div class="row d-flex justify-content-evenly">
 
 
-
-            <div class="row row-cols-1 row-cols-md-3 g-4 sec-cards">
-                <div class="col">
+                <div class="col-xl-3 col-lg-5 col-md-12  col-sm-12 mb-md-5 mb-sm-5">
                     <div class="card h-100">
-                        <i class="fa-solid fa-building fa-2x ms-4 p-3 mt-2 text-success"></i>
+                        <i class="fa-solid fa-building fa-2x ms-4 p-3 mt-2" style="color: rgba(167,35,85,1); font-size: 60px"></i>
                         <div class="card-body">
-                            <h5 class="card-title p-2 ms-3 text-uppercase">Web <br>Development</h5>
+                            <h2 class="card-title p-2 ms-3 text-uppercase">Web <br>Development</h2>
                             <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is so longer.</p>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col">
+                <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 mb-md-5 mb-sm-5">
                     <div class="card h-100">
-                        <i class="fa-solid fa-laptop fa-2x ms-4 p-3 mt-2 text-success"></i>
+                        <i class="fa-solid fa-laptop fa-2x ms-4 p-3 mt-2" style="color: rgba(167,35,85,1); font-size: 60px"></i>
                         <div class="card-body">
-                            <h5 class="card-title p-2 ms-3 text-uppercase">Digital<br>Marketing</h5>
+                            <h2 class="card-title p-2 ms-3 text-uppercase">Digital<br>Marketing</h2>
                             <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is so longer.</p>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col">
+                <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 mb-md-5 mb-sm-5">
                     <div class="card h-100">
-                        <i class="fa-solid fa-lightbulb fa-2x ms-4 p-3 mt-2 text-success"></i>
+                        <i class="fa-solid fa-lightbulb ms-4 p-3 mt-2" style="color: rgba(167,35,85,1); font-size: 60px"></i>
                         <div class="card-body">
-                            <h5 class="card-title p-2 ms-3 text-uppercase">marketing & <br>reporting</h5>
+                            <h2 class="card-title p-2 ms-3 text-uppercase">marketing<br>& reporting</h2>
                             <p class="card-text p-2 ms-3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is so longer.</p>
                         </div>
                     </div>
@@ -115,11 +114,11 @@
 
                 <div class="col-xl-6 col-lg-6 col-md-10 mb-md-4 mb-sm-5 text-center div2" style="margin: auto;">
                     <div class="d-flex justify-content-center">
-                        <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+                        <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid rgba(167,35,85,1);"></span>
                         <h4>Get to know us </h4>
                     </div>
                     <h1 class="text-uppercase">
-                        leading the best<br>digital <span class="text-success">agency</span> in town
+                        leading the best<br>digital <span style="color: rgba(167,35,85,1)">agency</span> in town
                     </h1><br>
                     <p class="text-capitalize">
                         web design in a powerful way of just not an only<br>
@@ -139,11 +138,11 @@
 
 
         {{------------------start of the overlay background fun fact----------------------------}}
-        <div class="container-fluid bg-overlayy">
+        <div class="container bg-overlayy">
             <div class="row text-center">
                 <div class="col">
                     <div class="d-flex justify-content-center">
-                        <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+                        <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid rgba(167,35,85,1);"></span>
                         <h2 style="text-align: center;">Fun Fact </h2>
                     </div>
                     <h1 class="text-uppercase">
@@ -152,7 +151,7 @@
                     </h1>
                 </div>
             </div>
-        </div> <br><br><br><br>
+        </div>
 
 
 

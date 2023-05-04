@@ -27,7 +27,7 @@
 }
 
 .nav-item a:hover:not(.nav-btn):not(.protect-btn), .nav-item a:active {
-    color: green;
+    color: #a72355;
 }
 
 .nav-btn:hover {
