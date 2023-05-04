@@ -54,11 +54,11 @@
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
 
                     <li class="nav-item">
-                        <a href="#"><i class="fa-solid fa-phone" style="color: black; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone" style="color: #212529; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
                     </li>
 
                     <li class="nav-item" >
-                        <a href="#"><i class="fa-solid fa-envelope" style="color: black; font-size: 24px; padding-top: 7px; padding-right: 25px;"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope" style="color: #212529; font-size: 24px; padding-top: 7px; padding-right: 25px;"></i></a>
                     </li>
 
                     <!-- <li class="nav-item">
@@ -67,12 +67,12 @@
                     @if (Route::has('login'))
 {{--                        @auth--}}
                     <li class="nav-item">
-                        <a class="nav-link nav-btn px-3" href="{{ route('login') }}">Login</a>
+                        <a class="nav-link nav-btn" href="{{ route('login') }}">Login</a>
                     </li>
 
                     @if (Route::has('register'))
                     <li class="nav-item">
-                        <a class="nav-link nav-btn px-3" href="{{ route('register') }}">Register</a>
+                        <a class="nav-link nav-btn" href="{{ route('register') }}">Register</a>
                     </li>
                     @endif
                 </ul>
@@ -91,12 +91,12 @@
 
 <!-- section two ----- who we are------------------------------------------------------------------------------------------------------------------>
 <div class="d-flex justify-content-center">
-    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
-    <h2 style="font-family: Georgia, 'Times New Roman'; text-align: center;">Who We Are ?</h2>
+    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid rgba(167,35,85,1);"></span>
+    <h2 style="font-family: Georgia, 'Times New Roman'; text-align: center; color: black">Who We Are ?</h2>
 </div>
 
 
-<p style="text-align: center; margin-top: 40px;">
+<p style="text-align: center; margin-top: 10px; margin-bottom: 40px">
     As a Digital Agency Services we are Committed to Building Custom Digital Solutions <br>that Drive Business Success.
 </p> <br><br>
 
@@ -106,7 +106,7 @@
     <div class="row">
 
 
-        <div  class="col-xl-6 col-lg-6 col-md-12 col-sm-12 idiv" style="border-left: solid 10px black; border-radius: 30px; padding-left: 30px;">
+        <div  class="col-xl-6 col-lg-6 col-md-12 col-sm-12 idiv" style="border-left: solid 5px #212529; border-radius: 30px; padding-left: 30px;">
 
             <img src="{{asset("/images/1.jpg")}}" alt="" width="95%" height="100%" style="border-radius: 50px;">
         </div>
@@ -136,11 +136,11 @@
 <!-- section three  ------Why choose us ?! --------------------------------------------------------------------------------------------------->
 
 <div class="d-flex justify-content-center">
-    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid rgba(167,35,85,1);"></span>
     <h2 style="font-family: Georgia, 'Times New Roman'; text-align: center;">Why Choose Us ?</h2>
 </div>
 
-<p style="text-align: center; margin-top: 40px;">
+<p style="text-align: center; margin-top: 10px;">
     Thank you for considering us as a digital agency. We believe that our experience, skills, and <br> dedication set us apart and make mus the ideal choice for your project.
 </p> <br><br><br><br>
 
@@ -151,12 +151,12 @@
 
         <div  class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
-            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
+            <div class="mb-xl-3 cdiv" style="background: rgba(167,35,85,1); width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
                 <i class="fa-solid fa-flask" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
-            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Expertise</h5>
+            <h5 style="padding-top: 65px;"><span style="border: 2px solid rgba(167,35,85,1); margin-right: 20px;"></span>Expertise</h5>
             <p style="padding-bottom: 40px; margin-top: 25px">
                 We have extensive experience in designing and developing websites for clients s across various industries.
             </p>
@@ -166,12 +166,12 @@
 
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5  mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 mt-sm-5 mb-xs-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
-            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
+            <div class="mb-xl-3 cdiv" style="background: rgba(167,35,85,1); width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
                 <i class="fa-solid fa-bell-concierge" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
-            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Attention to Detail</h5>
+            <h5 style="padding-top: 65px;"><span style="border: 2px solid rgba(167,35,85,1); margin-right: 20px;"></span>Attention to Detail</h5>
             <p style="padding-bottom: 40px; margin-top: 25px">
                 We take pride in my work, and pay attention to every detail to ensure that the end product of the highest quality
             </p>
@@ -181,12 +181,12 @@
 
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 mt-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
-            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
+            <div class="mb-xl-3 cdiv" style="background: rgba(167,35,85,1); width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
                 <i class="fa-solid fa-handshake" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
-            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Communication</h5>
+            <h5 style="padding-top: 65px;"><span style="border: 2px solid rgba(167,35,85,1); margin-right: 20px;"></span>Communication</h5>
             <p style="padding-bottom: 40px; margin-top: 25px;">
                 We believe that clear and constant communication is crucial for the success of any project
             </p>
@@ -197,12 +197,12 @@
 
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mt-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
-            <div class="mb-xl-3 cdiv" style="background-color: black; width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
+            <div class="mb-xl-3 cdiv" style="background: rgba(167,35,85,1); width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
                 <i class="fa-solid fa-mug-hot" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
-            <h5 style="padding-top: 65px;"><span style="border: 2px solid black; margin-right: 20px;"></span>Customer Service</h5>
+            <h5 style="padding-top: 65px;"><span style="border: 2px solid rgba(167,35,85,1); margin-right: 20px;"></span>Customer Service</h5>
             <p style="padding-bottom: 40px; margin-top: 25px">
                 As developer team. We understand the importance of building long-term relationships with my clients.
             </p>
@@ -254,7 +254,7 @@
 
 
 <div class="d-flex justify-content-center">
-    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+    <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid rgba(167,35,85,1);"></span>
     <h2 style="font-family: Georgia, 'Times New Roman'; text-align: center;">Our Services</h2>
 </div><br><br><br><br>
 
@@ -323,7 +323,6 @@
 
 
 
-
 <!-- section six  ----------------let'S talk----------------------------------------------------------------------------------------->
 
 <div class="container-fluid">
@@ -346,11 +345,12 @@
 
 
 
+
 <!-- section seven  ----------------footer ----------------------------------------------------------------------------------------->
 
 
 
-<div class="container-fluid" style="background-color: black">
+<div class="container-fluid bg-dark">
 
     <div class="container py-5">
 

@@ -210,24 +210,6 @@
 
 
 
-    <!--section three----------------let'S talk----------------------------------------------------------------------------------------->
-
-    <div class="container-fluid">
-        <div class="row obiqlue">
-
-            <div class="col-xl-8 col-lg-7" style="display: flex; justify-content: center; align-items: center;">
-                <h1 style="color: white; text-align: center; padding-bottom: 30px;"><span style="border: 2px solid white; margin-right: 50px;"></span>We’re interested in talking about your business.</h1>
-            </div>
-
-            <div class="col-xl-4 col-lg-5" style="display: flex; justify-content: center; align-items: center;">
-                <button class="talk" >Let’s Talk</button>
-            </div>
-
-
-        </div>
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 
     @endsection
 

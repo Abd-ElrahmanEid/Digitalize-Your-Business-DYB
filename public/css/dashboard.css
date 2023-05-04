@@ -171,7 +171,7 @@
 
 /*----lets talk-----------------------------------------------------------*/
 .obiqlue {
-    background-color: lightcoral;
+    background: #a72355;
     width: 100%;
     position: absolute;
     overflow: hidden;
@@ -181,7 +181,7 @@
 .obiqlue:after {
     content: "";
     display: block;
-    background: black;
+    background: #212529;
     height: 200px;
     width: 8000px;
     position: absolute;
@@ -196,13 +196,15 @@
 .talk{
     background-color: white;
     color: black;
-    padding: 20px 70px;
-    border: none;
+    padding: 14px 40px;
+    border: 2px solid white;
+    border-radius: 15px;
     margin-bottom: 30px;
+    font-size: 20px;
 }
 
 .talk:hover{
-    background-color: black;
+    background-color: #212529;
     border: 2px solid white;
     color: white;
     transition: background-color 0.6s ease;
