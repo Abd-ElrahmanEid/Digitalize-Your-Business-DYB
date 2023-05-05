@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: Nolluqa;
+    src: url('../fonts/NolluqapersonaluseRegular-VGMge.otf');
+}
+
 
 /* ------------------------------ Navbar ---------------------------------------------- */
 
@@ -244,12 +249,12 @@
 
 
   .talk{
-    background-color: white;
-    color: black;
-    padding: 14px 40px;
-    border: 2px solid white;
+      background-color: white;
+      color: black;
+      padding: 14px 40px;
+      border: 2px solid white;
       border-radius: 15px;
-    margin-bottom: 30px;
+      margin-bottom: 30px;
       font-size: 20px;
   }
 

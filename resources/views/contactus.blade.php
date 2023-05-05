@@ -16,13 +16,13 @@
 
         <!----section one---------------------------------contact us---------------------------------------------------------------------------------->
 
-        <div class="container-fluid bg-secondary" style="height: 45vh; padding-top: 90px;">
+        <div class="container-fluid bg-dark" style="height: 45vh; padding-top: 90px;">
 
             <div class="d-flex justify-content-center">
-                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
-                <h2>Contact Us</h2>
+                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid #a72355;"></span>
+                <h2 style="color: white">Contact Us</h2>
             </div>
-            <p style="text-align: center; margin-top: 20px; font-size: 18px;">We actively communicate to achieve the best results because Your Successful Partnership is our Goal.<br> Give us a Shout, and we will make you a believer.</p>
+            <p style="text-align: center; margin-top: 20px; font-size: 18px; color: white">We actively communicate to achieve the best results because Your Successful Partnership is our Goal.<br> Give us a Shout, and we will make you a believer.</p>
 
         </div>
 
@@ -38,10 +38,10 @@
 
                 <div class="col-xl-7 col-lg-10 mb-lg-5 col-md-11 mb-md-5 col-sm-12 mb-sm-5 big" >
 
-                    <div class="square">
+                    <div style="background-image: url({{'images/side.png'}}); background-size: cover;" class="square">
 
-                        <div class="dot" >
-                            <i style="font-size: 40px; margin-top: 20px " class="fa-solid fa-handshake-angle"></i>
+                        <div  class="dot" >
+                            <i style="font-size: 40px; margin-top: 20px; color: white" class="fa-solid fa-handshake-angle"></i>
                         </div>
 
                         <h4 style="padding-bottom: 20px;">Help & Support</h4>
@@ -49,9 +49,9 @@
 
                     </div>
 
-                    <div class="square" >
+                    <div style="background-image: url({{'images/side.png'}}); background-size: cover;" class="square" >
                         <div class="dot">
-                            <i style="font-size: 40px; margin-top: 20px " class="fa-solid fa-tty"></i>
+                            <i style="font-size: 40px; margin-top: 20px; color: white " class="fa-solid fa-tty"></i>
                         </div>
 
                         <h4 style="padding-bottom: 20px;">General information</h4>
@@ -66,7 +66,7 @@
 
                 <div class="col-xl-4 col-lg-8 col-md-10 col-sm-10 find" style="background-color: whitesmoke; height: 70vh;">
 
-                    <h4 style="padding-top: 50px;  text-align: center;">Quick Find Us</h4> <br>
+                    <h4 style="padding-top: 50px;  text-align: center; color: #a72355">Quick Find Us</h4> <br>
                     <hr style="width: 90%; margin: auto;"> <br><br>
 
                     <p style="font-size: 22px;  padding-left: 60px;">E-Mail : <br> <span style="font-size: 16px;">support@DYB.com</span></p>
@@ -106,9 +106,9 @@
             <div class="row">
 
 
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="height: 65vh; background-color: cornflowerblue; text-align: center;">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="height: 65vh; background-color: #cd788e; text-align: center;">
 
-                    <h2 style="text-align: center; padding-top: 40px;">Quick Find Us</h2><br>
+                    <h2 style="text-align: center; padding-top: 40px; color: white">Quick Find Us</h2><br>
 
                     <input class="input1"  placeholder="Name" type="text">
 
@@ -118,7 +118,7 @@
 
                     <textarea class="input4" placeholder="What do You Want !?"></textarea> <br><br>
 
-                    <button style="padding: 5px 30px; background-color: white; border: white;">
+                    <button class="sub">
                         Submit
                     </button>
 

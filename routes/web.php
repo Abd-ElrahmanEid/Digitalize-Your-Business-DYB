@@ -38,6 +38,14 @@ Route::get('portfolio',function (){
     return view('portfolio');
 });
 
+
+// portfolio page
+Route::get('request',function (){
+    return view('request');
+});
+
+
+
 //admin page
 Route::get('admin',function (){
     return view('admin.home');

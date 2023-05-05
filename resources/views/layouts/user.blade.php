@@ -27,7 +27,7 @@
         <!-- Navbar brand -->
         <div class="navbar-brand mt-2 mt-lg-0">
             <!-- <img src="#" alt="Corona Logo"/> -->
-            <h1>DYB</h1>
+            <p style="font-family: Nolluqa; font-size: 70px; letter-spacing: 5px;">DYB</p>
         </div>
 
         <!-- Toggle button -->
@@ -121,7 +121,9 @@
 
         <div class="text-center">
 
-            <h1 class="fs-2 fw-bold text-light ">DYB</h1> <br>
+{{--            <h1 class="fs-2 fw-bold text-light ">DYB</h1> <br>--}}
+            <p style="font-family: Nolluqa; font-size: 70px; letter-spacing: 5px; color: white">DYB</p> <br>
+
             <P class="text-light">
                 We are a full-service digital agency focused on the customer. Your company has a unique narrative to tell,<br>and if told correctly, it can drive sales and customer loyalty. We are masters in using cross-channel storytelling to grow companies.</P>
 

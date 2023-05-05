@@ -13,10 +13,10 @@
     @section('user')
         <!----section one---------------------------------grow with us---------------------------------------------------------------------------------->
 
-        <div class="container-fluid bg-warning" style="height: 45vh; padding-top: 90px;">
+        <div class="container-fluid bg-dark" style="height: 45vh; padding-top: 90px; color: white">
 
             <div class="d-flex justify-content-center">
-                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid #a72355;"></span>
                 <h2>Our Work</h2>
             </div>
             <p style="text-align: center; margin-top: 20px; font-size: 18px;">When you choose any of our digital services listed below,<br> you choose a company that is commited about your company's success.</p>

@@ -5,6 +5,12 @@
 }
 
 
+@font-face{
+    font-family: Nolluqa;
+    src: url('../fonts/NolluqapersonaluseRegular-VGMge.otf');
+}
+
+
 /* ------------------------------ Navbar ---------------------------------------------------------------------------- */
 
 .nav-btn {
@@ -30,10 +36,6 @@
     color: #a72355;
 }
 
-.nav-btn:hover {
-    color: #fff;
-    background-color: black;
-}
 
 .navbar-toggler {
     border: none;
@@ -79,7 +81,7 @@
     left: 0;
     right: 0;
     z-index: 777;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(167,35,85,0.7);
     display: none;
 }
 

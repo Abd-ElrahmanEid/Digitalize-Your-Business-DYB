@@ -11,7 +11,6 @@
 }
 
 
-
 /* ------------------------------ Navbar ---------------------------------------------------------------------------- */
 
 .nav-btn {
@@ -90,23 +89,179 @@
     display: block;
 }
 
-/*------------------portfolio----------------------------------------------------------------------------------------------------------*/
 
-@media(max-width: 576px){
-    .square{
-        width: 90%;
-        margin-bottom: 30px;
 
+/* ------------------------------------------- request form ------------------------------------------------------------------------------------------------ */
+
+.text{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input{
+    width: 95%;
+    height: 6.5vh;
+    border-radius: 5px ;
+    border: none;
+}
+
+.input[type = time]{
+    padding: 0  25px;
+}
+
+.input[type = date]{
+    padding: 0  25px;
+}
+
+
+.input::placeholder{
+    padding: 15px 25px;
+
+}
+
+textarea{
+    border-radius: 5px ;
+    border: none;
+}
+
+textarea::placeholder{
+    padding: 15px 25px;
+
+}
+@media(max-width: 1400px){
+    textarea{
+        width: 95%;
+    }
+}
+
+@media(max-width: 1380px){
+    textarea{
+        width: 95%;
+    }
+}
+
+
+@media(max-width: 1360px){
+    textarea{
+        width: 95%;
+    }
+}
+@media(max-width: 1340px){
+    textarea{
+        width: 95%;
+    }
+}
+
+@media(max-width: 1320px){
+    textarea{
+        width: 95%;
+    }
+}
+
+@media(max-width: 1300px){
+    textarea{
+        width: 95%;
+    }
+}
+
+@media(max-width: 1290px){
+    textarea{
+        width: 95%;
+    }
+}
+
+
+@media(max-width: 1270px){
+    textarea{
+        width: 95%;
+    }
+}
+
+
+@media(max-width: 1260px){
+    textarea{
+        width: 95%;
+    }
+}
+
+
+@media(max-width: 1250px){
+    textarea{
+        width: 95%;
+    }
+}
+
+@media(max-width: 1200px){
+    textarea{
+        width: 95%;
     }
 }
 
 
 
 
+
+.button{
+    padding: 7px 40px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media(max-width: 1290px){
+    .button{
+        margin-left: 260px;
+    }
+}
+
+@media(max-width: 1250px){
+    .button{
+        margin-left: 250px;
+    }
+}
+
+@media(max-width: 1220px){
+    .button{
+        margin-left: 235px;
+    }
+}
+
+
+@media(max-width: 1200px){
+    .button{
+        margin-left: 350px;
+    }
+}
+
+
+@media(max-width: 995px){
+    .button{
+        margin-left: 240px;
+    }
+}
+
+
+
+@media(max-width: 760px){
+    .button{
+        margin-left: 140px;
+    }
+}
+
+
+
+@media(max-width: 576px){
+    .button{
+        margin-left: 130px;
+    }
+}
+
+
+
 /*------------------let'S talk----------------------------------------------------------------------------------------------------------*/
 
 .obiqlue {
-    background: rgba(167,35,85,1);
+    background-color: #a72355;
     width: 100%;
     position: absolute;
     overflow: hidden;

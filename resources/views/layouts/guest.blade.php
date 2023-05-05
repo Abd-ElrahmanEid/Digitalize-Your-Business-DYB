@@ -20,7 +20,7 @@
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0" style="background-image: url({{'images/Gear.png'}}); background-size: cover;">
             <div>
                 <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current " style="margin-top: 50px; color: rgba(219, 112, 147)" />
+                    <x-application-logo class="w-20 h-20 fill-current " style="margin-top: 50px;" />
                 </a>
             </div>
 
