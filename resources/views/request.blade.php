@@ -15,10 +15,10 @@
 
         <!----section one---------------------------------grow with us---------------------------------------------------------------------------------->
 
-        <div class="container-fluid bg-dark" style="height: 45vh; padding-top: 90px; color: white">
+        <div class="container-fluid bg-dark" style="height: 45vh; padding-top: 90px; color: white; background-image: url({{'images/side2.png'}}); background-size: cover;)">
 
             <div class="d-flex justify-content-center">
-                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid #a72355;"></span>
+                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid white;"></span>
                 <h2>Grow With Us</h2>
             </div>
             <p style="text-align: center; margin-top: 20px; font-size: 18px;">When you choose any of our digital services listed below,<br> you choose a company that is commited about your company's success.</p>
@@ -37,9 +37,9 @@
             <div class="row" >
 
 
-                <div class="col-xl-8 "  style="margin: auto; padding: 30px 50px; background-color: violet; border-radius: 10px;">
+                <div class="col-xl-8 bg-dark"  style="margin: auto; padding: 50px 50px; border-radius: 10px;">
 
-                    <h1 style="text-align: center;">Let's Start</h1>
+                    <h1 style="text-align: center; color: white">Let's Start</h1>
                     <br><br>
 
                     <label class="text" for="">Company Name :</label><br>
@@ -48,19 +48,19 @@
                     <br><br>
 
                     <label class="text" for="">Company Website :</label><br>
-                    <input class="input" type="text" >
+                    <input class="input" type="text" placeholder="Company URL">
 
                     <br><br>
 
                     <label class="text" for="">Phone Number :</label><br>
-                    <input class="input" type="number" >
+                    <input class="input" type="number" placeholder="Your Phone">
 
 
                     <br><br>
 
                     <!-- annual revenue -->
                     <label class="text" for="">What's your approximate annual revenue ? </label><br>
-                    <input class="input" type="number" >
+                    <input class="input" type="number" placeholder="Approximate Profit ?">
 
                     <br><br>
 
@@ -89,7 +89,7 @@
 
                     <!-- comments -->
                     <label class="text" for="" >What topics would you like to discuss during this Meeting ?</label><br>
-                    <textarea cols="99" rows="6" placeholder="Do you have any comment ?"></textarea>
+                    <textarea cols="87" rows="6" placeholder="Do you have any comment ?"></textarea>
 
 
                     <br><br><br>

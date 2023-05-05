@@ -16,10 +16,10 @@
 
         <!----section one---------------------------------contact us---------------------------------------------------------------------------------->
 
-        <div class="container-fluid bg-dark" style="height: 45vh; padding-top: 90px;">
+        <div class="container-fluid bg-dark" style="height: 45vh; padding-top: 90px; background-image: url({{'images/side2.png'}}); background-size: cover;)">
 
             <div class="d-flex justify-content-center">
-                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid #a72355;"></span>
+                <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid white;"></span>
                 <h2 style="color: white">Contact Us</h2>
             </div>
             <p style="text-align: center; margin-top: 20px; font-size: 18px; color: white">We actively communicate to achieve the best results because Your Successful Partnership is our Goal.<br> Give us a Shout, and we will make you a believer.</p>
