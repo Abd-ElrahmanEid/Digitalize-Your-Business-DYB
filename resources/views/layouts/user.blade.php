@@ -166,7 +166,7 @@
                     <ol class="fw-lighter pb-2 p-sm-0 ">Tell us your impression about our website </ol>
                     <ol class="pb-2 p-sm-0 ">
                         <input type="text" style="width: 100%; height: 5vh; margin-top: 15px; color: black"><br>
-                        <button style="background-color: white; color: black; padding: 5px 40px; margin-top: 15px; border-radius: 15px">
+                        <button style="background-color: white; color: black; padding: 5px 40px; margin-top: 15px; border-radius: 10px">
                             Send
                         </button>
                     </ol>

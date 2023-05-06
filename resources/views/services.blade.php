@@ -97,134 +97,135 @@
 
     <br><br><br><br>
 
-    <!-------Services cards-----------------1------------------------------------------------------>
 
 
-    <div class="container">
-        <div class="row d-flex justify-content-evenly" >
 
-            <div class="col-xl-6 col-lg-11 col-md-12 mb-sm-5 square" style="height: 50vh; border: 2px solid red">
-                <img src="{{asset("/images/web Development.gif")}}" alt="" width="100%" height="100%">
+
+        <!-------Services cards----------------------------------------------------------------------->
+
+
+        <div class="container">
+            <div class="row d-flex justify-content-evenly" >
+
+                <!-------------1---------------------------------------------------------------------------->
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-sm-5 square" style="height: 50vh;">
+                    <img class="sora" src="{{asset('./images/web Development.gif')}}" alt="">
+                </div>
+
+                <div class="col-xl-5 col-lg-5 mb-xl-5 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 40px 40px;">
+                    <h2>Web Development</h2>
+
+                    <p style="font-size: 18px;">
+                        With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you.
+                    </p>
+                    <button class="get">
+                        Get
+                        <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
+                    </button>
+
+                </div>
+
+
+                <!-------------2---------------------------------------------------------------------------->
+
+                <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
+                    <img class="sora" src="{{asset('./images/Social Digital Marketing.gif')}}" alt="">
+                </div>
+
+
+                <div class="col-xl-5 mt-xl-5 col-lg-5 mb-xl-5 col-md-12 mt-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">
+                    <h2 >Digital Marketing</h2>
+
+                    <p style="font-size: 18px;">
+                        With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you.
+                    </p>
+                    <button class="get">
+                        Get
+                        <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
+                    </button>
+
+                </div>
+
+
+
+
+                <!------------3----------------------------------------------------------------------------->
+
+
+                <div class="col-xl-6 mt-xl-5 mb-xl-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
+                    <img class="sora" src="{{asset('./images/Mobile Development.gif')}}" alt="">
+                </div>
+
+
+                <div class="col-xl-5 mt-xl-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">
+                    <h2>Mobile Development</h2>
+
+                    <p style="font-size: 18px;">
+                        With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you.
+                    </p>
+                    <button class="get">
+                        Get
+                        <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
+                    </button>
+
+                </div>
+
+
+
+
+                <!-----------4----------------------------------------------------------------->
+
+
+                <div class="col-xl-6 mt-xl-5 mb-xl-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
+                    <img class="sora" src="{{asset('./images/designer.gif')}}" alt="">
+                </div>
+
+                <div class="col-xl-5 mt-xl-5 mt-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">
+                    <h2>Graphic Design</h2>
+
+                    <p style="font-size: 18px;">
+                        With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you.
+                    </p>
+                    <button class="get">
+                        Get
+                        <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
+                    </button>
+
+                </div>
+
+
+
+
+
+                <!--------------5------------------------------------------------------------------->
+
+
+                <div class="col-xl-6 mt-xl-5 mb-xl-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
+                    <img class="sora" src="{{asset('./images/Cloud Computing.gif')}}" alt="">
+                </div>
+
+
+                <div class="col-xl-5 mt-xl-5 mt-md-5 mt-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 40px 40px;">
+                    <h2>Cloud Computing</h2>
+
+                    <p style="font-size: 18px;">
+                        With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you.
+                    </p>
+                    <button class="get">
+                        Get
+                        <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
+                    </button>
+
+                </div>
+
+
+
+
+
+
             </div>
-
-            <div class="col-xl-5 col-lg-11 col-md-12 square" style="border:2px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">
-                <h2 >Web Development</h2>
-                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>
-                <button class="get">
-                    Get
-                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
-                </button>
-
-            </div>
-
-            <!-------------2------------------ -->
-
-{{--            <div class="col-xl-6 col-lg-11 col-md-12 mb-sm-5 square" style="height: 50vh; border: 2px solid red">--}}
-{{--                <img src="{{asset("/images/Social Digital Marketing.gif")}}">--}}
-{{--            </div>--}}
-
-{{--            <div class="col-xl-5 col-lg-11 col-md-12 square" style="border:2px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
-{{--                <h2 >Web Development</h2>--}}
-{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
-{{--                <button class="get">--}}
-{{--                    Get--}}
-{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
-{{--                </button>--}}
-
-{{--            </div>--}}
-
-
-{{--            <div class="col-xl-5 col-lg-11 col-md-12 square" style="border-left: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
-{{--                <h2 >Digital Marketing</h2>--}}
-{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
-{{--                <button class="get">--}}
-{{--                    Get--}}
-{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
-{{--                </button>--}}
-
-{{--            </div>--}}
-
-
-{{--            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">--}}
-{{--                <img src="{{asset("/images/Social Digital Marketing.gif")}}" alt="" width="100%" height="100%">--}}
-{{--            </div>--}}
-
-
-
-
-
-            <!------------3------------------- -->
-
-
-
-{{--            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">--}}
-{{--                <img src="{{asset("/images/Mobile Development.gif")}}" alt="" width="100%" height="100%">--}}
-{{--            </div>--}}
-
-
-{{--            <div class="col-xl-5 mt-xl-5 col-lg-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border-right: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
-{{--                <h2>Mobile Development</h2>--}}
-{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
-{{--                <button class="get">--}}
-{{--                    Get--}}
-{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
-{{--                </button>--}}
-
-{{--            </div>--}}
-
-
-
-
-            <!-----------4-------------------- -->
-
-
-
-
-{{--            <div class="col-xl-5 mt-xl-5 col-lg-6 mt-md-5 mt-sm-5 mb-sm-5 square" style="border-left: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
-{{--                <h2>Graphic Design</h2>--}}
-{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
-{{--                <button class="get">--}}
-{{--                    Get--}}
-{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
-{{--                </button>--}}
-
-{{--            </div>--}}
-
-
-
-{{--            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">--}}
-{{--                <img src="{{asset("/images/designer.gif")}}" alt="" width="100%" height="100%">--}}
-{{--            </div>--}}
-
-
-
-
-            <!--------------5----------------- -->
-
-
-{{--            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">--}}
-{{--                <img src="{{asset("/images/Search Engine Optimization.gif")}}" alt="" width="100%" height="100%">--}}
-{{--            </div>--}}
-
-
-{{--            <div class="col-xl-5 mt-xl-5 col-lg-5 mt-md-5 mt-sm-5 square" style="border-right: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
-{{--                <h2>Cloud Computing</h2>--}}
-{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
-{{--                <button class="get">--}}
-{{--                    Get--}}
-{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
-{{--                </button>--}}
-
-{{--            </div>--}}
-
-
-
-
-
-
-
-        </div>
-    </div>   <br><br><br><br><br><br>
+        </div>   <br><br><br><br><br><br>
 
 
 
