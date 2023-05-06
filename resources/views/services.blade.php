@@ -89,7 +89,7 @@
     <!----section two---------------------------------Our Services---------------------------------------------------------------------------------->
 
     <div class="d-flex justify-content-center">
-        <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid green;"></span>
+        <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid #a72355;"></span>
         <h2>Our Digital Services</h2>
     </div>
     <p style="text-align: center; margin-top: 20px; font-size: 18px;">When you choose any of our digital services listed below,<br> you choose a company that is commited about your company's success.</p>
@@ -103,11 +103,11 @@
     <div class="container">
         <div class="row d-flex justify-content-evenly" >
 
-            <div class="col-xl-6 col-lg-6 col-md-12 mb-sm-5 square" style="height: 50vh;">
+            <div class="col-xl-6 col-lg-11 col-md-12 mb-sm-5 square" style="height: 50vh; border: 2px solid red">
                 <img src="{{asset("/images/web Development.gif")}}" alt="" width="100%" height="100%">
             </div>
 
-            <div class="col-xl-5 col-lg-5 mb-xl-5 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border-right: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">
+            <div class="col-xl-5 col-lg-11 col-md-12 square" style="border:2px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">
                 <h2 >Web Development</h2>
                 <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>
                 <button class="get">
@@ -119,21 +119,35 @@
 
             <!-------------2------------------ -->
 
+{{--            <div class="col-xl-6 col-lg-11 col-md-12 mb-sm-5 square" style="height: 50vh; border: 2px solid red">--}}
+{{--                <img src="{{asset("/images/Social Digital Marketing.gif")}}">--}}
+{{--            </div>--}}
 
-            <div class="col-xl-5 mt-xl-5 col-lg-5 mb-xl-5 col-md-12 mt-md-5 mt-sm-5 mb-sm-5 square" style="border-left: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">
-                <h2 >Digital Marketing</h2>
-                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>
-                <button class="get">
-                    Get
-                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
-                </button>
+{{--            <div class="col-xl-5 col-lg-11 col-md-12 square" style="border:2px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
+{{--                <h2 >Web Development</h2>--}}
+{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
+{{--                <button class="get">--}}
+{{--                    Get--}}
+{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
+{{--                </button>--}}
 
-            </div>
+{{--            </div>--}}
 
 
-            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
-                <img src="{{asset("/images/Social Digital Marketing.gif")}}" alt="" width="100%" height="100%">
-            </div>
+{{--            <div class="col-xl-5 col-lg-11 col-md-12 square" style="border-left: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
+{{--                <h2 >Digital Marketing</h2>--}}
+{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
+{{--                <button class="get">--}}
+{{--                    Get--}}
+{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
+{{--                </button>--}}
+
+{{--            </div>--}}
+
+
+{{--            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">--}}
+{{--                <img src="{{asset("/images/Social Digital Marketing.gif")}}" alt="" width="100%" height="100%">--}}
+{{--            </div>--}}
 
 
 
@@ -143,20 +157,20 @@
 
 
 
-            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
-                <img src="{{asset("/images/Mobile Development.gif")}}" alt="" width="100%" height="100%">
-            </div>
+{{--            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">--}}
+{{--                <img src="{{asset("/images/Mobile Development.gif")}}" alt="" width="100%" height="100%">--}}
+{{--            </div>--}}
 
 
-            <div class="col-xl-5 mt-xl-5 col-lg-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border-right: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">
-                <h2>Mobile Development</h2>
-                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>
-                <button class="get">
-                    Get
-                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
-                </button>
+{{--            <div class="col-xl-5 mt-xl-5 col-lg-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border-right: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
+{{--                <h2>Mobile Development</h2>--}}
+{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
+{{--                <button class="get">--}}
+{{--                    Get--}}
+{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
+{{--                </button>--}}
 
-            </div>
+{{--            </div>--}}
 
 
 
@@ -166,21 +180,21 @@
 
 
 
-            <div class="col-xl-5 mt-xl-5 col-lg-6 mt-md-5 mt-sm-5 mb-sm-5 square" style="border-left: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">
-                <h2>Graphic Design</h2>
-                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>
-                <button class="get">
-                    Get
-                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
-                </button>
+{{--            <div class="col-xl-5 mt-xl-5 col-lg-6 mt-md-5 mt-sm-5 mb-sm-5 square" style="border-left: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
+{{--                <h2>Graphic Design</h2>--}}
+{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
+{{--                <button class="get">--}}
+{{--                    Get--}}
+{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
+{{--                </button>--}}
 
-            </div>
+{{--            </div>--}}
 
 
 
-            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
-                <img src="{{asset("/images/designer.gif")}}" alt="" width="100%" height="100%">
-            </div>
+{{--            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">--}}
+{{--                <img src="{{asset("/images/designer.gif")}}" alt="" width="100%" height="100%">--}}
+{{--            </div>--}}
 
 
 
@@ -188,20 +202,25 @@
             <!--------------5----------------- -->
 
 
-            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
-                <img src="{{asset("/images/Search Engine Optimization.gif")}}" alt="" width="100%" height="100%">
-            </div>
+{{--            <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">--}}
+{{--                <img src="{{asset("/images/Search Engine Optimization.gif")}}" alt="" width="100%" height="100%">--}}
+{{--            </div>--}}
 
 
-            <div class="col-xl-5 mt-xl-5 col-lg-5 mt-md-5 mt-sm-5 square" style="border-right: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">
-                <h2>Cloud Computing</h2>
-                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>
-                <button class="get">
-                    Get
-                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
-                </button>
+{{--            <div class="col-xl-5 mt-xl-5 col-lg-5 mt-md-5 mt-sm-5 square" style="border-right: 3px solid green; border-bottom: 3px solid green; border-radius: 15px; height: 50vh; padding: 30px 40px;">--}}
+{{--                <h2>Cloud Computing</h2>--}}
+{{--                <p style="font-size: 18px; margin-top: 27px; margin-bottom: 27px">With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. With professional digital Services that we are Provided, your website is now part of you. </p>--}}
+{{--                <button class="get">--}}
+{{--                    Get--}}
+{{--                    <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>--}}
+{{--                </button>--}}
 
-            </div>
+{{--            </div>--}}
+
+
+
+
+
 
 
         </div>
