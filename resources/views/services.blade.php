@@ -26,7 +26,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset("/images/d.jpg")}}" class="d-block w-100" alt="....">
+                <img src="{{asset("/images/cor1.png")}}" class="d-block w-100" alt="....">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Web Development</h1>
                     <p>We Will achieve your goal with easy way</p>
@@ -34,7 +34,7 @@
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset("/images/c.jpg")}}" class="d-block w-100" alt="....">
+                <img src="{{asset("/images/cor2.png")}}" class="d-block w-100" alt="....">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Mobile Development</h1>
                     <p>SWe Will achieve your goal with easy way</p>
@@ -43,7 +43,7 @@
 
 
             <div class="carousel-item">
-                <img src="{{asset("/images/d.jpg")}}" class="d-block w-100" alt="....">
+                <img src="{{asset("/images/cor3.png")}}" class="d-block w-100" alt="....">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Digital Marketing</h1>
                     <p>We Will achieve your goal with easy way</p>
@@ -52,7 +52,7 @@
 
 
             <div class="carousel-item">
-                <img src="{{asset("/images/c.jpg")}}" class="d-block w-100" alt="....">
+                <img src="{{asset("/images/cor4.png")}}" class="d-block w-100" alt="....">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Graphic Design</h1>
                     <p>We Will achieve your goal with easy way</p>
@@ -61,7 +61,7 @@
 
 
             <div class="carousel-item">
-                <img src="{{asset("/images/d.jpg")}}" class="d-block w-100" alt="....">
+                <img src="{{asset("/images/cor5.png")}}" class="d-block w-100" alt="....">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Cloud Computing</h1>
                     <p>We Will achieve your goal with easy way</p>
