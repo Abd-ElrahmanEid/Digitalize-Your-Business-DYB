@@ -12,9 +12,7 @@ class Feedback extends Model
 
     protected $fillable = [
         'tasklevel',
-        'duration',
         'rating',
-        'comments',
         'recommendations',
         'user_id'
     ];

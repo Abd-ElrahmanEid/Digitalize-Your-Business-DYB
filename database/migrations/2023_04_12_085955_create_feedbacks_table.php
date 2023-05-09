@@ -14,10 +14,8 @@ return new class extends Migration
         Schema::create('feedbacks', function (Blueprint $table) {
             $table->id();
             $table->string('tasklevel')->default('none');
-            $table->integer('duration');
-            $table->integer('rating');
-            $table->longText('comments');
-            $table->string('recommendations');
+            $table->integer('rating')->default(0);
+            $table->string('recommendations')->default('none');
             $table->foreignId('user_id')->constrained()->onUpdate('cascade')->onDelete('cascade');
             $table->timestamps();
         });
