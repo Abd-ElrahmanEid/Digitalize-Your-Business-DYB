@@ -54,9 +54,6 @@ class User extends Authenticatable
         return $this->hasMany(Service::class);
     }
 
-    public function payments(){
-        return $this->hasMany(Payment::class);
-    }
 
     public function admins(){
         return $this->belongsToMany(Admin::class);
