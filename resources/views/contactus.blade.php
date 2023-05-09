@@ -38,9 +38,9 @@
 
                 <div class="col-xl-7 col-lg-10 mb-lg-5 col-md-11 mb-md-5 col-sm-12 mb-sm-5 big" >
 
-                    <div style="background-image: url({{'images/side.png'}}); background-size: cover;" class="square">
+                    <div style="background-image: url({{'images/side.png'}}); background-size: cover;" class="square" data-aos="fade-down">
 
-                        <div  class="dot" >
+                        <div  class="dot" data-aos="fade-down">
                             <i style="font-size: 40px; margin-top: 20px; color: white" class="fa-solid fa-handshake-angle"></i>
                         </div>
 
@@ -49,8 +49,10 @@
 
                     </div>
 
-                    <div style="background-image: url({{'images/side.png'}}); background-size: cover;" class="square" >
-                        <div class="dot">
+
+                    <div style="background-image: url({{'images/side.png'}}); background-size: cover;" class="square" data-aos="fade-down">
+
+                        <div class="dot" data-aos="fade-down">
                             <i style="font-size: 40px; margin-top: 20px; color: white " class="fa-solid fa-tty"></i>
                         </div>
 
@@ -140,7 +142,7 @@
             <div class="row d-flex justify-content-evenly" >
 
 
-                <div class="col-xl-3 col-lg-3 col-sm-5 cards">
+                <div class="col-xl-3 col-lg-3 col-sm-5 cards" data-aos="fade-up-right">
                     <i class="fa-solid fa-phone-volume" style="display: flex; justify-content: center; font-size: 60px; padding-top: 65px;"></i> <br><br>
 
                     <h2 style="text-align: center;">Call Us</h2> <br>
@@ -149,7 +151,7 @@
                 </div>
 
 
-                <div class="col-xl-3 col-lg-3 col-sm-5 cards">
+                <div class="col-xl-3 col-lg-3 col-sm-5 cards" data-aos="fade-down">
                     <i class="fa-solid fa-envelope" style="display: flex; justify-content: center; font-size: 60px; padding-top: 65px;"></i> <br><br>
                     <h2 style="text-align: center;">Gmail</h2> <br>
 
@@ -157,7 +159,7 @@
                 </div>
 
 
-                <div class="col-xl-3 col-lg-3 col-sm-5 cards">
+                <div class="col-xl-3 col-lg-3 col-sm-5 cards" data-aos="fade-up-left">
                     <i class="fa-sharp fa-solid fa-location-dot" style="display: flex; justify-content: center; font-size: 60px; padding-top: 65px;"></i> <br><br>
                     <h2 style="text-align: center;">Location</h2> <br>
 

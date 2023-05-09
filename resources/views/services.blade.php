@@ -109,11 +109,11 @@
 
                 <!-------------1---------------------------------------------------------------------------->
 
-                <div class="col-xl-6 col-lg-6 col-md-12 mb-sm-5 square" style="height: 50vh;">
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-sm-5 square" style="height: 50vh;" data-aos="fade-right">
                     <img class="sora" src="{{asset('./images/web Development.gif')}}" alt="">
                 </div>
 
-                <div class="col-xl-5 col-lg-5 mb-xl-5 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 40px 40px;">
+                <div class="col-xl-5 col-lg-5 mb-xl-5 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 40px 40px;" data-aos="fade-left">
                     <h2>Web Development</h2>
 
                     <p style="font-size: 18px;">
@@ -129,12 +129,12 @@
 
                 <!-------------2---------------------------------------------------------------------------->
 
-                <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
+                <div class="col-xl-6 mt-xl-5 mb-xl-5 col-lg-6 col-md-12 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;" data-aos="fade-right">
                     <img class="sora" src="{{asset('./images/Social Digital Marketing.gif')}}" alt="">
                 </div>
 
 
-                <div class="col-xl-5 mt-xl-5 col-lg-5 mb-xl-5 col-md-12 mt-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">
+                <div class="col-xl-5 mt-xl-5 col-lg-5 mb-xl-5 col-md-12 mt-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;" data-aos="fade-left">
                     <h2 >Digital Marketing</h2>
 
                     <p style="font-size: 18px;">
@@ -153,12 +153,12 @@
                 <!------------3----------------------------------------------------------------------------->
 
 
-                <div class="col-xl-6 mt-xl-5 mb-xl-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
+                <div class="col-xl-6 mt-xl-5 mb-xl-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;" data-aos="fade-right">
                     <img class="sora" src="{{asset('./images/Mobile Development.gif')}}" alt="">
                 </div>
 
 
-                <div class="col-xl-5 mt-xl-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">
+                <div class="col-xl-5 mt-xl-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;" data-aos="fade-left">
                     <h2>Mobile Development</h2>
 
                     <p style="font-size: 18px;">
@@ -177,11 +177,11 @@
                 <!-----------4----------------------------------------------------------------->
 
 
-                <div class="col-xl-6 mt-xl-5 mb-xl-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
+                <div class="col-xl-6 mt-xl-5 mb-xl-5 mt-md-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;" data-aos="fade-right">
                     <img class="sora" src="{{asset('./images/designer.gif')}}" alt="">
                 </div>
 
-                <div class="col-xl-5 mt-xl-5 mt-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;">
+                <div class="col-xl-5 mt-xl-5 mt-md-5 mt-sm-5 mb-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 30px 40px;" data-aos="fade-left">
                     <h2>Graphic Design</h2>
 
                     <p style="font-size: 18px;">
@@ -201,12 +201,12 @@
                 <!--------------5------------------------------------------------------------------->
 
 
-                <div class="col-xl-6 mt-xl-5 mb-xl-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;">
+                <div class="col-xl-6 mt-xl-5 mb-xl-5 mb-md-5 mt-sm-5 mb-sm-5 square" style="height: 50vh;" data-aos="fade-right">
                     <img class="sora" src="{{asset('./images/Cloud Computing.gif')}}" alt="">
                 </div>
 
 
-                <div class="col-xl-5 mt-xl-5 mt-md-5 mt-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 40px 40px;">
+                <div class="col-xl-5 mt-xl-5 mt-md-5 mt-sm-5 square" style="border: 3px solid black; border-radius: 15px; height: 50vh; padding: 40px 40px;" data-aos="fade-left">
                     <h2>Cloud Computing</h2>
 
                     <p style="font-size: 18px;">
