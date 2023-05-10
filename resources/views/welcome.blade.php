@@ -23,7 +23,7 @@
 
 <!-- Navbar  -------------------------------------------------------------------------------------------------------------------------------->
 
-<nav class="navbar navbar-expand-lg navbar-light mt-3 mb-2" >
+<nav class="navbar navbar-expand-lg navbar-light mt-3 mb-2" id="home">
     <!-- Container wrapper -->
     <div class="container">
         <!-- Navbar brand -->
@@ -53,7 +53,7 @@
 
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
 
-                    <li class="nav-item">
+                    <li class="nav-item" >
                         <a href="#"><i class="fa-solid fa-phone" style="color: #212529; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
                     </li>
 
@@ -66,12 +66,12 @@
                     </li>-->
                     @if (Route::has('login'))
 {{--                        @auth--}}
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-down">
                         <a class="nav-link nav-btn" href="{{ route('login') }}">Login</a>
                     </li>
 
                     @if (Route::has('register'))
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-up">
                         <a class="nav-link nav-btn" href="{{ route('register') }}">Register</a>
                     </li>
                     @endif
@@ -85,6 +85,14 @@
         <div class="navbar-overlay"></div>
     </div>
 </nav>  <br><br>
+
+
+
+<!---- Scroll -->
+<a class="hide" href="#home">
+    <i class="fa-solid fa-arrow-up fs-4" style="color: white; padding: 11px 13px;"></i>
+</a>
+
 
 
 
@@ -108,7 +116,7 @@
 
         <div  class="col-xl-6 col-lg-6 col-md-12 col-sm-12 idiv" style="border-left: solid 5px #212529; border-radius: 30px; padding-left: 30px;">
 
-            <img src="{{asset("/images/1.jpg")}}" alt="" width="95%" height="100%" style="border-radius: 50px;">
+            <img src="{{asset("/images/1.jpg")}}" alt="" width="95%" height="100%" style="border-radius: 50px;" data-aos="fade-right">
         </div>
 
 
@@ -264,7 +272,7 @@
 
 
 
-        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px">
+        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px" data-aos="fade-right">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Web Development</p>
@@ -274,7 +282,7 @@
 
 
 
-        <div class="col-xl-4  col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;border-radius: 10px">
+        <div class="col-xl-4  col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;border-radius: 10px" data-aos="fade-down">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Mobile Development</p>
@@ -285,7 +293,7 @@
 
 
 
-        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px">
+        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px" data-aos="fade-left">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Digital Marketing</p>
@@ -296,7 +304,7 @@
 
 
 
-        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px">
+        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px" data-aos="fade-right">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Graphic Design</p>
@@ -307,7 +315,7 @@
 
 
 
-        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px">
+        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px" data-aos="fade-left">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Cloud Computing</p>
@@ -357,7 +365,7 @@
         <div class="text-center">
 
 {{--            <h1 class="fs-2 fw-bold text-light ">DYB</h1> <br>--}}
-            <p style="font-family: Nolluqa; font-size: 70px; letter-spacing: 5px; color: white">DYB</p> <be>
+            <p style="font-family: Nolluqa; font-size: 70px; letter-spacing: 5px; color: white">DYB</p>
 
             <P class="text-light">
                 We are a full-service digital agency focused on the customer. Your company has a unique narrative to tell,<br>and if told correctly, it can drive sales and customer loyalty. We are masters in using cross-channel storytelling to grow companies.</P>

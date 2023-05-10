@@ -21,7 +21,7 @@
 
 {{--Navbar-----------------------------------------------------------------------------------------------------------------}}
 
-<nav class="navbar navbar-expand-lg navbar-light mt-3 mb-2" >
+<nav class="navbar navbar-expand-lg navbar-light mt-3 mb-2" id="home">
     <!-- Container wrapper -->
     <div class="container">
         <!-- Navbar brand -->
@@ -83,6 +83,12 @@
     </div>
 </nav>
 {{--end of nav------------------------------------------------------------------------------}}
+
+
+<!---- Scroll--------------------------------------------->
+<a class="hide" href="#home">
+    <i class="fa-solid fa-arrow-up fs-4" style="color: white; padding: 11px 13px;"></i>
+</a>
 
 
 

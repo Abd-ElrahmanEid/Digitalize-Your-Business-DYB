@@ -52,7 +52,7 @@
             <div class="row d-flex justify-content-evenly">
 
 
-                <div class="col-xl-3 col-lg-5 col-md-12  col-sm-12 mb-md-5 mb-sm-5">
+                <div class="col-xl-3 col-lg-5 col-md-12 col-sm-12 mb-md-5 mb-sm-5 cards" data-aos="fade-right">
                     <div class="card h-100">
                         <i class="fa-solid fa-building fa-2x ms-4 p-3 mt-2" style="color: rgba(167,35,85,1); font-size: 60px"></i>
                         <div class="card-body">
@@ -63,7 +63,7 @@
                 </div>
 
 
-                <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 mb-md-5 mb-sm-5">
+                <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 mb-md-5 mb-sm-5 cards" data-aos="fade-up">
                     <div class="card h-100">
                         <i class="fa-solid fa-laptop fa-2x ms-4 p-3 mt-2" style="color: rgba(167,35,85,1); font-size: 60px"></i>
                         <div class="card-body">
@@ -74,7 +74,7 @@
                 </div>
 
 
-                <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 mb-md-5 mb-sm-5">
+                <div class="col-xl-3 col-lg-6 col-md-12 col-sm-12 mb-md-5 mb-sm-5 cards" data-aos="fade-left">
                     <div class="card h-100">
                         <i class="fa-solid fa-lightbulb ms-4 p-3 mt-2" style="color: rgba(167,35,85,1); font-size: 60px"></i>
                         <div class="card-body">

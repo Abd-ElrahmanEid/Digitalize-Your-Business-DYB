@@ -20,4 +20,21 @@ $(".navbar-overlay").click(function(){
 
 
 
+//---------------------------------------scroll--------------------------------------------------------------------
+
+
+let hide = document.querySelector(".hide")
+
+
+window.onscroll = function() {
+
+    if (window.scrollY > 500) {
+        hide.style.display = 'block'
+    } else {
+        hide.style.display = 'none'
+    }
+
+
+}
+
 
