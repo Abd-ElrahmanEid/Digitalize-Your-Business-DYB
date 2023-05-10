@@ -39,6 +39,9 @@
 
                 <div class="col-xl-8 bg-dark"  style="margin: auto; padding: 50px 50px; border-radius: 10px;">
 
+                    <form method="" action="">
+
+
                     <h1 style="text-align: center; color: white">Let's Start</h1>
                     <br><br>
 
@@ -100,7 +103,7 @@
                     </button>
 
 
-
+                    </form>
                 </div>
 
 
