@@ -6,7 +6,8 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
 {{--        <title>{{ config('app.name', 'Laravel') }}</title>--}}
-        <link rel="shortcut icon" type="image/png" href="{{'images/favicon.png'}}">
+        {{-----favicon----}}
+        <link rel="shortcut icon" type="image/png" href="{{asset("images/favicon.png")}}">
 
 
         <!-- Fonts -->
