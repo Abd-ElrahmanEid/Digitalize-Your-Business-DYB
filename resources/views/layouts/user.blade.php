@@ -69,7 +69,7 @@
                         <a class="nav-link active" href="{{route('userview.index')}}">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Get service</a>
+                        <a class="nav-link active" href="{{route('userservice.create')}}">Get service</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Contact us</a>

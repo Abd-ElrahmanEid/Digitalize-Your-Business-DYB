@@ -3,6 +3,7 @@
 use App\Http\Controllers\admin\AdminservicesController;
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserserviceController;
 use App\Http\Controllers\UserviewController;
 use Illuminate\Support\Facades\Route;
 
@@ -35,13 +36,6 @@ Route::get('portfolio',function (){
 });
 
 
-// portfolio page
-Route::get('request',function (){
-    return view('request');
-});
-
-
-
 //admin page
 Route::get('admin',function (){
     return view('admin.home');
@@ -68,7 +62,10 @@ Route::middleware('auth')->group(function () {
     Route::resource('adminservice', AdminservicesController::class)->middleware('Admin');
     //admin view,add,delete users
     Route::resource('adminusers', UserController::class)->middleware('Admin');
+    //user view added services by admin
     Route::resource('userview', UserviewController::class);
+
+    Route::resource('userservice', UserserviceController::class);
 });
 
 require __DIR__.'/auth.php';
