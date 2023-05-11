@@ -72,7 +72,7 @@
                         <a class="nav-link active" href="{{route('userservice.create')}}">Get service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact us</a>
+                        <a class="nav-link active" href="{{route('usercomplaint.create')}}">Contact us</a>
                     </li>
                 </ul>
 

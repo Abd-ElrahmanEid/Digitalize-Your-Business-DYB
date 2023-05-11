@@ -5,6 +5,7 @@ use App\Http\Controllers\admin\AdminViewFeedback;
 use App\Http\Controllers\admin\AdminviewuserserviceController;
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserComplaintController;
 use App\Http\Controllers\UserFeedbackController;
 use App\Http\Controllers\UserserviceController;
 use App\Http\Controllers\UserviewController;
@@ -25,12 +26,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-
-//  Contact Us page
-Route::get('contactus',function (){
-    return view('contactus');
-});
 
 
 // portfolio page
@@ -81,6 +76,9 @@ Route::middleware('auth')->group(function () {
     //admin view feedbacks
     Route::resource('adminfeedback', AdminViewFeedback::class)->middleware('Admin');
 
+
+    //user add complaint
+    Route::resource('usercomplaint', UserComplaintController::class);
 
 });
 

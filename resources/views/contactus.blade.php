@@ -110,25 +110,30 @@
 
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="height: 65vh; background-color: #cd788e; text-align: center;">
 
-                    <h2 style="text-align: center; padding-top: 40px; color: white">Quick Find Us</h2><br>
+                    <form action="{{route('usercomplaint.store')}}" method="POST">
+                        @csrf
 
-                    <input class="input1"  placeholder="Name" type="text">
 
-                    <input class="input2"  placeholder="E-mail" type="email"> <br><br>
+                    <h2 style="text-align: center; padding-top: 40px; color: white">Your Complaint</h2><br>
 
-                    <input class="input3" placeholder="Your Subject" type="text"> <br><br>
-
-                    <textarea class="input4" placeholder="What do You Want !?"></textarea> <br><br>
+                    <textarea class="input4" name="content" placeholder="Tell us your problem !?"></textarea> <br><br>
 
                     <button class="sub">
                         Submit
                     </button>
 
+                    </form>
+
+                    @if(session()->has('success'))
+                        <p style="color: white; font-size: 20px; margin-top: 17px">
+                            {{session()->get('success')}}
+                        </p>
+                    @endif
 
                 </div>
 
 
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="height: 65vh ; background-image: url({{'images/laptop.jpg'}}); background-size: cover;">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 imgg">
 
                 </div>
 

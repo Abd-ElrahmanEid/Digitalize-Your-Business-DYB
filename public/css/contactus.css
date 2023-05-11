@@ -247,7 +247,7 @@
 
 .input4{
     width: 73vh;
-    height: 22vh;
+    height: 30vh;
     border: 2px solid white;
 
 }
@@ -294,7 +294,7 @@
     }
 
     .input4{
-        width: 60vh;
+        width: 50vh;
     }
 
 }
@@ -317,7 +317,11 @@
 }
 
 
-
+.imgg{
+    height: 65vh ;
+    background-image: url('../images/laptop.jpg');
+    background-size: cover;
+}
 
 
 /*------------------3 cards----------------------------------------------------------------------------------------------------------*/
