@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admin\AdminservicesController;
+use App\Http\Controllers\admin\AdminViewFeedback;
 use App\Http\Controllers\admin\AdminviewuserserviceController;
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ProfileController;
@@ -76,6 +77,9 @@ Route::middleware('auth')->group(function () {
 
     //user add feedbacks
     Route::resource('userfeedback', UserFeedbackController::class);
+
+    //admin view feedbacks
+    Route::resource('adminfeedback', AdminViewFeedback::class)->middleware('Admin');
 
 
 });
