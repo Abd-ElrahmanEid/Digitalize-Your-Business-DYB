@@ -60,13 +60,13 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="{{route('dashboard')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Portfolio</a>
+                        <a class="nav-link active" href="{{url('portfolio')}}">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Services</a>
+                        <a class="nav-link active" href="{{route('userview.index')}}">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Get service</a>

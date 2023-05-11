@@ -3,6 +3,7 @@
 use App\Http\Controllers\admin\AdminservicesController;
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserviewController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,12 +21,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-
-//  Services page
-Route::get('services',function (){
-    return view('services');
-});
 
 
 //  Contact Us page
@@ -73,6 +68,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('adminservice', AdminservicesController::class)->middleware('Admin');
     //admin view,add,delete users
     Route::resource('adminusers', UserController::class)->middleware('Admin');
+    Route::resource('userview', UserviewController::class);
 });
 
 require __DIR__.'/auth.php';

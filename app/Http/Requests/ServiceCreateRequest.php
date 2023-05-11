@@ -24,7 +24,7 @@ class ServiceCreateRequest extends FormRequest
         return [
             'name'=>['required','string'],
             'description'=>['required'],
-            'image'=>['required','image','mimes:png,jpg,jpeg','max:9000'],
+            'image'=>['required','image','mimes:png,jpg,jpeg,gif','max:9000'],
         ];
     }
 }
