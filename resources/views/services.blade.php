@@ -119,10 +119,10 @@
                     <p style="font-size: 18px;">
                         {{$service->description}}
                     </p>
-                    <button class="get">
+                    <a class="get" href="{{route('userservice.create')}}">
                         Get
                         <i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i>
-                    </button>
+                    </a>
 
                 </div>
                 @endforeach
