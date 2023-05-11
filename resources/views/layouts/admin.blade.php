@@ -26,7 +26,7 @@
                         <li><a class="dropdown-item" href="{{route('adminusers.create')}}">Add New User</a></li>
                         <li><hr class="dropdown-divider" /></li>
                         <li><a class="dropdown-item" href="{{route('adminusers.index')}}">All users</a></li>
-                        <li><a class="dropdown-item" href="">view all services added by user</a></li>
+                        <li><a class="dropdown-item" href="{{route('adminviewservice.index')}}">view all services added by user</a></li>
                         <li><a class="dropdown-item" href="">view complaints</a></li>
                         <li><a class="dropdown-item" href="">view feedbacks</a></li>
                     </ul>

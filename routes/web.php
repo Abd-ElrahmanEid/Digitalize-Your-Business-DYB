@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admin\AdminservicesController;
+use App\Http\Controllers\admin\AdminviewuserserviceController;
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserserviceController;
@@ -43,8 +44,6 @@ Route::get('admin',function (){
 
 
 
-
-
 Route::get('/dashboard', function () {
     if (auth()->user()->is_admin){
         return redirect('admin');
@@ -64,8 +63,10 @@ Route::middleware('auth')->group(function () {
     Route::resource('adminusers', UserController::class)->middleware('Admin');
     //user view added services by admin
     Route::resource('userview', UserviewController::class);
-
+    //user add service
     Route::resource('userservice', UserserviceController::class);
+
+    Route::resource('adminviewservice', AdminviewuserserviceController::class)->middleware('Admin');
 });
 
 require __DIR__.'/auth.php';
