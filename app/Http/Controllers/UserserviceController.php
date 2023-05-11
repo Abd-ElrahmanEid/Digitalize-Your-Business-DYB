@@ -41,7 +41,7 @@ class UserserviceController extends Controller
             'date'=>$request['date'],
             'user_id'=>auth()->user()->id,
         ]);
-        return redirect()->route('userservice.create')->with('success','service added successfully');
+        return redirect()->route('userservice.create')->with('success','looking forward to meet you');
     }
 
     /**
