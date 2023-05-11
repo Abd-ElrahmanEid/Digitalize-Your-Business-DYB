@@ -238,9 +238,17 @@ textarea::placeholder{
 .button{
     padding: 7px 40px;
     margin-left: 300px;
-    border: none;
+    border: 2px solid white;
     border-radius: 5px;
     background-color: white;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #212529;
+    border: 2px solid white;
+    color: white;
+    transition: all 0.3s;
 }
 
 @media(max-width: 1290px){

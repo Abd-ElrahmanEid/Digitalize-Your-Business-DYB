@@ -39,10 +39,28 @@
         .links:hover{
             background-color: white;
             color: black;
+            transition: all 0.5s;
         }
 
         .links:hover .icon{
             color: black;
+            transition: all 0.5s;
+        }
+
+        .send{
+            background-color: white;
+            color: black;
+            padding: 5px 40px;
+            margin-top: 15px;
+            border: 2px solid white;
+            border-radius: 10px
+        }
+
+        .send:hover{
+            background-color: #212529;
+            border: 2px solid white;
+            color: white;
+            transition: all 0.4s;
         }
 
 
@@ -171,7 +189,7 @@
         <div class="row" style="display: flex; justify-content: space-evenly;">
 
             <div class="col-xl-3 col-lg-4 col-md-5 mx-md-5 col-sm-5 foot">
-                <ul class="text-light ">
+                <ul class="text-light">
                     <ol class="fw-bold pb-3 p-sm-0 pb-sm-2">QUICK LINKS</ol>
                     <ol class="fw-lighter pb-2 p-sm-0"><a href="{{route('dashboard')}}" style="text-decoration: none; color: white">Home</a></ol>
                     <ol class="fw-lighter pb-2 p-sm-0"><a href="{{url('portfolio')}}" style="text-decoration: none; color: white">Portfolio</a></ol>
@@ -229,7 +247,7 @@
                         <ol class="fw-lighter pb-2 p-sm-0 ">How we can improve our services ?  </ol>
                         <ol class="pb-2 p-sm-0 ">
                             <input type="text" name="recommendations" placeholder="Recommendations" style="width: 90%; height: 5vh; margin-top: 7px; color: black; border-radius: 10px"><br>
-                            <button style="background-color: white; color: black; padding: 5px 40px; margin-top: 15px; border-radius: 10px">
+                            <button class="send">
                                 Send
                             </button>
                         </ol>

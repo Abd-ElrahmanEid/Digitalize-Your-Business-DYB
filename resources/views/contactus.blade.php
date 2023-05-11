@@ -108,7 +108,7 @@
             <div class="row">
 
 
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="height: 65vh; background-color: #cd788e; text-align: center;">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12" style="height: 65vh; background-color: #a72355; text-align: center;">
 
                     <form action="{{route('usercomplaint.store')}}" method="POST">
                         @csrf

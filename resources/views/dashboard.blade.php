@@ -25,8 +25,8 @@
                     <span class="text-capitalize">
             we help you to achieve your goals by customizing what is best for you<br> with care and productivity.
         </span><br><br>
-                    <a class="btn text-uppercase" href="{{route('userview.index')}}" style="color: #a72355; font-weight: bold">discover
-                        <i class="fa-solid fa-arrow-right-long ms-3" style="color: #a72355"></i>
+                    <a class="btn text-uppercase disc" href="{{route('userview.index')}}" style="font-weight: bold">discover
+                        <i class="fa-solid fa-arrow-right-long ms-3"></i>
                     </a>
                 </div>
             </div>
@@ -108,7 +108,7 @@
         <div class="container">
             <div class="row" >
 
-                <div class="col-xl-3 col-lg-3 col-md-7 mb-md-4 mb-sm-5 div1" style="height: 50vh; background-color: #bacbe6; background-image: url({{'images/2.jpg'}}); background-size: cover">
+                <div class="col-xl-3 col-lg-3 col-md-7 mb-md-4 mb-sm-5 div1" style="height: 50vh; background-color: #bacbe6; background-image: url({{'images/7.jpg'}}); background-size: cover">
                 </div>
 
 
@@ -129,7 +129,7 @@
                 </div>
 
 
-                <div class="col-xl-3 col-lg-3 col-md-7 bot-div" style="margin-top: auto; height: 40vh; background-color: #bacbe6; background-image: url({{'images/2.jpg'}}); background-size: cover">
+                <div class="col-xl-3 col-lg-3 col-md-7 bot-div" style="margin-top: auto; height: 40vh; background-color: #bacbe6; background-image: url({{'images/6.jpg'}}); background-size: cover">
                 </div>
             </div>
         </div><br><br><br><br><br>
@@ -142,7 +142,7 @@
             <div class="row text-center">
                 <div class="col">
                     <div class="d-flex justify-content-center">
-                        <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid rgba(167,35,85,1);"></span>
+                        <span style="width: 50px; height: 0; margin-top: 20px; margin-right: 20px; border: 2px solid white;"></span>
                         <h2 style="text-align: center;">Fun Fact </h2>
                     </div>
                     <h1 class="text-uppercase">
