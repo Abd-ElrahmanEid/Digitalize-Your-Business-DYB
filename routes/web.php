@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admin\AdminservicesController;
+use App\Http\Controllers\admin\AdminViewComplaintController;
 use App\Http\Controllers\admin\AdminViewFeedback;
 use App\Http\Controllers\admin\AdminviewuserserviceController;
 use App\Http\Controllers\admin\UserController;
@@ -73,12 +74,16 @@ Route::middleware('auth')->group(function () {
     //user add feedbacks
     Route::resource('userfeedback', UserFeedbackController::class);
 
-    //admin view feedbacks
+    //admin view,delete feedbacks
     Route::resource('adminfeedback', AdminViewFeedback::class)->middleware('Admin');
 
 
     //user add complaint
     Route::resource('usercomplaint', UserComplaintController::class);
+
+    //Admin view,delete complaint
+    Route::resource('admincomplaint' , AdminViewComplaintController::class)->middleware('Admin');
+
 
 });
 
