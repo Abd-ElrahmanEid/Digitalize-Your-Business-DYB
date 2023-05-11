@@ -116,7 +116,7 @@
 
         <div  class="col-xl-6 col-lg-6 col-md-12 col-sm-12 idiv" style="border-left: solid 5px #212529; border-radius: 30px; padding-left: 30px;">
 
-            <img src="{{asset("/images/1.jpg")}}" alt="" width="95%" height="100%" style="border-radius: 50px;" data-aos="fade-right">
+            <img src="{{asset("/images/programmer.gif")}}" alt="" width="95%" height="95%" style="border-radius: 50px;" data-aos="fade-right">
         </div>
 
 
@@ -124,7 +124,7 @@
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-sm-3 pdiv" style="text-align: justify;" >
 
             <p style="padding-top: 10px; padding-bottom: 30px">
-                At our Digital services agency, we specialize in creating custom solutions that help businesses achieve their online goals. Our team of experienced web developers, designers, and digital strategists work collaboratively to build websites, web applications, and e-commerce solutions that meet our clients' unique needs and deliver results.<br><br>
+                At our Digital service's agency, we specialize in creating custom solutions that help businesses achieve their online goals. Our team of experienced web developers, designers, and digital strategists work collaboratively to build websites, web applications, and e-commerce solutions that meet our clients' unique needs and deliver results.<br><br>
 
                 Our mission is to provide our clients with the tools they need to succeed in the online marketplace. We are dedicated to staying up-to-date with the latest web technologies and trends to ensure that we are always delivering the highest quality work. We believe that every business deserves a digital solutions that reflects their brand's personality and effectively communicates their message to their target audience.
             </p>
@@ -272,7 +272,7 @@
 
 
 
-        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px" data-aos="fade-right">
+        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" data-aos="fade-right">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Web Development</p>
@@ -282,7 +282,7 @@
 
 
 
-        <div class="col-xl-4  col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center;border-radius: 10px" data-aos="fade-down">
+        <div class="col-xl-4  col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" data-aos="fade-down">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Mobile Development</p>
@@ -293,7 +293,7 @@
 
 
 
-        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px" data-aos="fade-left">
+        <div class="col-xl-3 mb-xl-5 col-lg-5 mb-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" data-aos="fade-left">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Digital Marketing</p>
@@ -304,7 +304,7 @@
 
 
 
-        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px" data-aos="fade-right">
+        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" data-aos="fade-right">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Graphic Design</p>
@@ -315,7 +315,7 @@
 
 
 
-        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" style="border: 2px solid black; height: 25vh; display: flex; align-items: center; border-radius: 10px" data-aos="fade-left">
+        <div class="col-xl-5 col-lg-5 col-md-10 mb-md-5 col-sm-10 mb-sm-5 services" data-aos="fade-left">
 
             <span class="line"></span>
             <p style="padding-top: 15px; padding-left: 20px; font-size: 24px;">Cloud Computing</p>
@@ -377,22 +377,22 @@
 
         <div class="row justify-content-center">
 
-            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
-                <i class="fa-brands fa-facebook" style="font-size: 30px; color: white;"></i>
+            <div class="links">
+                <i class="fa-brands fa-facebook icon"></i>
             </div>
 
-            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
-                <i class="fa-brands fa-instagram" style="font-size: 30px; color: white;"></i>
-            </div>
-
-
-            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
-                <i class="fa-brands fa-github" style="font-size: 30px; color: white;"></i>
+            <div class="links">
+                <i class="fa-brands fa-instagram icon"></i>
             </div>
 
 
-            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white;">
-                <i class="fa-brands fa-linkedin" style="font-size: 30px; color: white;"></i>
+            <div class="links">
+                <i class="fa-brands fa-github icon"></i>
+            </div>
+
+
+            <div class="links">
+                <i class="fa-brands fa-linkedin icon"></i>
             </div>
 
         </div> <br><br>
