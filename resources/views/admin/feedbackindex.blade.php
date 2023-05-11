@@ -9,6 +9,8 @@
         <thead>
         <tr>
             <th scope="col">#</th>
+            <th scope="col">User name</th>
+            <th scope="col">User email</th>
             <th scope="col">Task Level</th>
             <th scope="col">Rating</th>
             <th scope="col">Recommendations</th>
@@ -19,10 +21,11 @@
         @foreach($feedbacks as $feedback)
             <tr>
                 <th scope="row">{{$feedback->id}}</th>
+                <th scope="row">{{$feedback->user->name}}</th>
+                <th scope="row">{{$feedback->user->email}}</th>
                 <td>{{$feedback->tasklevel}}</td>
                 <td>{{$feedback->rating}}</td>
                 <td>{{$feedback->recommendations}}</td>
-
                 <td>
                     <form action="{{route('adminfeedback.destroy',$feedback->id)}}" method="post">
                         @csrf

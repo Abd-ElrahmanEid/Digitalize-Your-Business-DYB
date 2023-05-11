@@ -9,8 +9,9 @@
         <thead>
         <tr>
             <th scope="col">#</th>
+            <th scope="col">User name</th>
+            <th scope="col">User email</th>
             <th scope="col">Content</th>
-
             <th scope="col">Delete</th>
         </tr>
         </thead>
@@ -18,9 +19,9 @@
         @foreach($complaints as $complaint)
             <tr>
                 <th scope="row">{{$complaint->id}}</th>
+                <th scope="row">{{$complaint->user->name}}</th>
+                <th scope="row">{{$complaint->user->email}}</th>
                 <th scope="row">{{$complaint->content}}</th>
-
-
                 <td>
                     <form action="{{route('admincomplaint.destroy',$complaint->id)}}" method="post">
                         @csrf
