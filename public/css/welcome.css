@@ -132,12 +132,13 @@
 
 
 .get_in_touch{
-    margin-top: 15px;
     padding: 10px 40px;
     background-color: rgba(167,35,85,1);
     border: 2px solid rgba(167,35,85,1);
     border-radius: 15px;
     color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .get_in_touch:hover{
@@ -273,6 +274,7 @@
       border-radius: 15px;
       margin-bottom: 30px;
       font-size: 20px;
+      text-decoration: none;
   }
 
   .talk:hover{

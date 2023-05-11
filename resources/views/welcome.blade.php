@@ -123,15 +123,15 @@
 
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-sm-3 pdiv" style="text-align: justify;" >
 
-            <p style="padding-top: 10px;">
+            <p style="padding-top: 10px; padding-bottom: 30px">
                 At our Digital services agency, we specialize in creating custom solutions that help businesses achieve their online goals. Our team of experienced web developers, designers, and digital strategists work collaboratively to build websites, web applications, and e-commerce solutions that meet our clients' unique needs and deliver results.<br><br>
 
                 Our mission is to provide our clients with the tools they need to succeed in the online marketplace. We are dedicated to staying up-to-date with the latest web technologies and trends to ensure that we are always delivering the highest quality work. We believe that every business deserves a digital solutions that reflects their brand's personality and effectively communicates their message to their target audience.
             </p>
 
-            <button class="get_in_touch">
+            <a class="get_in_touch" href="{{route('userview.index')}}">
                 Get in Touch
-            </button>
+            </a>
         </div>
 
     </div>
@@ -341,7 +341,7 @@
         </div>
 
         <div class="col-xl-4 col-lg-5" style="display: flex; justify-content: center; align-items: center;">
-            <button class="talk" >Let’s Talk</button>
+            <a class="talk" href="{{route('userservice.create')}}">Let’s Talk</a>
         </div>
 
 

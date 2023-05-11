@@ -107,7 +107,7 @@
         </div>
 
         <div class="col-xl-4 col-lg-5" style="display: flex; justify-content: center; align-items: center;">
-            <button class="talk" >Let’s Talk</button>
+            <a class="talk" href="{{route('userservice.create')}}">Let’s Talk</a>
         </div>
 
 

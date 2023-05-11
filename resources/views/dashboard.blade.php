@@ -25,7 +25,7 @@
                     <span class="text-capitalize">
             we help you to achieve your goals by customizing what is best for you<br> with care and productivity.
         </span><br><br>
-                    <a class="btn text-uppercase " style="color: #a72355; font-weight: bold">discover
+                    <a class="btn text-uppercase" href="{{route('userview.index')}}" style="color: #a72355; font-weight: bold">discover
                         <i class="fa-solid fa-arrow-right-long ms-3" style="color: #a72355"></i>
                     </a>
                 </div>
