@@ -108,6 +108,13 @@
 
 
 /* ------------------------------------------- request form ------------------------------------------------------------------------------------------------ */
+.imgg{
+    height: 45vh;
+    padding-top: 90px;
+    color: white;
+    background-image: url('../images/side2.png'); background-size: cover;
+}
+
 
 .text{
     font-size: 18px;

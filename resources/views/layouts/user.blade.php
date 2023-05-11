@@ -16,6 +16,37 @@
 
     {{--tab title--}}
     @yield('title')
+
+
+    <style>
+        .links{
+            width: 80px;
+            height: 55px;
+            background-color: transparent;
+            text-align: center;
+            padding-top: 12px;
+            border-radius: 10px;
+            border: 2px solid white;
+            margin-right: 25px;
+            cursor: pointer;
+        }
+
+        .icon{
+            font-size: 30px;
+            color: white;
+        }
+
+        .links:hover{
+            background-color: white;
+            color: black;
+        }
+
+        .links:hover .icon{
+            color: black;
+        }
+
+
+    </style>
 </head>
 <body>
 
@@ -52,7 +83,7 @@
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
 
                     <li class="nav-item">
-                        <a href="tel:01111628467"><i class="fa-solid fa-phone" style="color: #a72355; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
+                        <a href="tel:000000000"><i class="fa-solid fa-phone" style="color: #a72355; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
                     </li>
 
                     <li class="nav-item" >
@@ -127,7 +158,6 @@
 
         <div class="text-center">
 
-{{--            <h1 class="fs-2 fw-bold text-light ">DYB</h1> <br>--}}
             <p style="font-family: Nolluqa; font-size: 70px; letter-spacing: 5px; color: white">DYB</p> <br>
 
             <P class="text-light">
@@ -143,11 +173,11 @@
             <div class="col-xl-3 col-lg-4 col-md-5 mx-md-5 col-sm-5 foot">
                 <ul class="text-light ">
                     <ol class="fw-bold pb-3 p-sm-0 pb-sm-2">QUICK LINKS</ol>
-                    <ol class="fw-lighter pb-2 p-sm-0">Home</ol>
-                    <ol class="fw-lighter pb-2 p-sm-0">Our Work</ol>
-                    <ol class="fw-lighter pb-2 p-sm-0">Services</ol>
-                    <ol class="fw-lighter pb-2 p-sm-0">Get Order</ol>
-                    <ol class="fw-lighter pb-2 p-sm-0">Contact Us</ol>
+                    <ol class="fw-lighter pb-2 p-sm-0"><a href="{{route('dashboard')}}" style="text-decoration: none; color: white">Home</a></ol>
+                    <ol class="fw-lighter pb-2 p-sm-0"><a href="{{url('portfolio')}}" style="text-decoration: none; color: white">Portfolio</a></ol>
+                    <ol class="fw-lighter pb-2 p-sm-0"><a href="{{route('userservice.create')}}" style="text-decoration: none; color: white">Services</a></ol>
+                    <ol class="fw-lighter pb-2 p-sm-0"><a href="{{route('userservice.create')}}" style="text-decoration: none; color: white">Get Service</a></ol>
+                    <ol class="fw-lighter pb-2 p-sm-0"><a href="{{route('usercomplaint.create')}}" style="text-decoration: none; color: white">Contact Us</a></ol>
 
                 </ul>
             </div>
@@ -173,8 +203,8 @@
                         @csrf
                         <ol class="fw-lighter pb-2 p-sm-0 " style="margin-bottom: 15px">
 
-                            <lable>Task Level</lable>
-                            <select name="tasklevel" style="width: 40%; margin-top: 5px; margin-left: 10px; color: black">
+                            <lable style="font-size:18px";>Task Level</lable>
+                            <select name="tasklevel" style="width: 35%; margin-top: 5px; margin-left: 10px; color: black; border-radius: 15px">
                                 <option value="Excellent">Excellent</option>
                                 <option value="Very Good">Very Good</option>
                                 <option value="Weak">Weak</option>
@@ -184,11 +214,13 @@
 
                         <ol class="fw-lighter pb-2 p-sm-0 " style="margin-bottom: 15px">
 
-                            <lable>Rating</lable>
-                            <select name="rating" style="width: 40%; margin-top: 5px; margin-left: 37px; color: black">
+                            <lable style="font-size:18px";>Rating</lable>
+                            <select name="rating" style="width: 35%; margin-top: 5px; margin-left: 37px; color: black; border-radius: 15px">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
                             </select>
                         </ol>
 
@@ -196,7 +228,7 @@
 
                         <ol class="fw-lighter pb-2 p-sm-0 ">How we can improve our services ?  </ol>
                         <ol class="pb-2 p-sm-0 ">
-                            <input type="text" name="recommendations" style="width: 90%; height: 5vh; margin-top: 7px; color: black"><br>
+                            <input type="text" name="recommendations" placeholder="Recommendations" style="width: 90%; height: 5vh; margin-top: 7px; color: black; border-radius: 10px"><br>
                             <button style="background-color: white; color: black; padding: 5px 40px; margin-top: 15px; border-radius: 10px">
                                 Send
                             </button>
@@ -216,22 +248,22 @@
 
         <div class="row justify-content-center">
 
-            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
-                <i class="fa-brands fa-facebook" style="font-size: 30px; color: white;"></i>
+            <div class="links">
+                <i class="fa-brands fa-facebook icon"></i>
             </div>
 
-            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
-                <i class="fa-brands fa-instagram" style="font-size: 30px; color: white;"></i>
-            </div>
-
-
-            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white; margin-right: 25px;">
-                <i class="fa-brands fa-github" style="font-size: 30px; color: white;"></i>
+            <div class="links">
+                <i class="fa-brands fa-instagram icon"></i>
             </div>
 
 
-            <div style="width: 80px; height: 55px; background-color: transparent; text-align: center; padding-top: 12px; border-radius: 10px; border: 2px solid white;">
-                <i class="fa-brands fa-linkedin" style="font-size: 30px; color: white;"></i>
+            <div class="links">
+                <i class="fa-brands fa-github icon"></i>
+            </div>
+
+
+            <div class="links">
+                <i class="fa-brands fa-linkedin icon"></i>
             </div>
 
         </div> <br><br>

@@ -10,11 +10,11 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">service name</th>
-            <th scope="col">service image</th>
             <th scope="col">service description</th>
-            <th scope="col">Delete service</th>
-            <th scope="col">Show service</th>
-            <th scope="col">Update service</th>
+            <th scope="col">service image</th>
+            <th scope="col">Delete</th>
+            <th scope="col">Show</th>
+            <th scope="col">Update</th>
         </tr>
         </thead>
         <tbody>
@@ -24,26 +24,26 @@
                 <td>{{$admin->name}}</td>
                 <td>{{$admin->description}}</td>
                 <td>
-                    <img src="{{asset('/storage/'.$admin->image)}}" height="100">
+                    <img src="{{asset('/storage/'.$admin->image)}}" height="100" width="250" alt="">
                 </td>
                 <td>
                     <form action="{{route('adminservice.destroy',$admin->id)}}" method="post">
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="btn btn-danger">
-                            delete service
+                            Delete
                         </button>
                     </form>
 
                 </td>
                 <td>
                     <a href="{{route('adminservice.show',$admin->id)}}" class="btn btn-secondary">
-                        show service
+                        Show
                     </a>
                 </td>
                 <td>
                     <a href="{{route('adminservice.edit',$admin->id)}}" class="btn btn-secondary">
-                        update service
+                        Update
                     </a>
                 </td>
             </tr>
