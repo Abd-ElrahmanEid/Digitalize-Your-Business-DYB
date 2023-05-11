@@ -4,6 +4,7 @@ use App\Http\Controllers\admin\AdminservicesController;
 use App\Http\Controllers\admin\AdminviewuserserviceController;
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserFeedbackController;
 use App\Http\Controllers\UserserviceController;
 use App\Http\Controllers\UserviewController;
 use Illuminate\Support\Facades\Route;
@@ -57,16 +58,26 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
     //admin add service,view the services requested by client, delete, update
     Route::resource('adminservice', AdminservicesController::class)->middleware('Admin');
+
     //admin view,add,delete users
     Route::resource('adminusers', UserController::class)->middleware('Admin');
+
     //user view added services by admin
     Route::resource('userview', UserviewController::class);
+
     //user add service
     Route::resource('userservice', UserserviceController::class);
 
+    //Admin view,update,delete services added by user
     Route::resource('adminviewservice', AdminviewuserserviceController::class)->middleware('Admin');
+
+    //user add feedbacks
+    Route::resource('userfeedback', UserFeedbackController::class);
+
+
 });
 
 require __DIR__.'/auth.php';

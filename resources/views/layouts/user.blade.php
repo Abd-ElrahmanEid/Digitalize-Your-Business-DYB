@@ -165,19 +165,50 @@
             </div>
 
 
-            <div class="col-xl-4 m-xl-0 col-lg-9 col-md-11 m-md-5 col-sm-11 mt-sm-5 feed" >
+            <div class="col-xl-4 m-xl-0 col-lg-9 col-md-10 m-md-5 col-sm-11 mt-sm-5 feed" >
 
                 <ul class="text-light ">
                     <ol class="fw-bold p-sm-0 pb-sm-2">FEEDBACK</ol>
-                    <ol class="fw-lighter pb-2 p-sm-0 ">Tell us your impression about our website </ol>
-                    <ol class="pb-2 p-sm-0 ">
-                        <input type="text" style="width: 100%; height: 5vh; margin-top: 15px; color: black"><br>
-                        <button style="background-color: white; color: black; padding: 5px 40px; margin-top: 15px; border-radius: 10px">
-                            Send
-                        </button>
-                    </ol>
+                    <form action="{{route('userfeedback.store')}}" method="POST">
+                        @csrf
+                        <ol class="fw-lighter pb-2 p-sm-0 " style="margin-bottom: 15px">
+
+                            <lable>Task Level</lable>
+                            <select name="tasklevel" style="width: 40%; margin-top: 5px; margin-left: 10px; color: black">
+                                <option value="Excellent">Excellent</option>
+                                <option value="Very Good">Very Good</option>
+                                <option value="Weak">Weak</option>
+                            </select>
+                        </ol>
+
+
+                        <ol class="fw-lighter pb-2 p-sm-0 " style="margin-bottom: 15px">
+
+                            <lable>Rating</lable>
+                            <select name="rating" style="width: 40%; margin-top: 5px; margin-left: 37px; color: black">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </ol>
+
+
+
+                        <ol class="fw-lighter pb-2 p-sm-0 ">How we can improve our services ?  </ol>
+                        <ol class="pb-2 p-sm-0 ">
+                            <input type="text" name="recommendations" style="width: 90%; height: 5vh; margin-top: 7px; color: black"><br>
+                            <button style="background-color: white; color: black; padding: 5px 40px; margin-top: 15px; border-radius: 10px">
+                                Send
+                            </button>
+                        </ol>
+                    </form>
 
                 </ul>
+                @if(session()->has('success'))
+                    <p style="color: greenyellow; margin-left: 30px">
+                        {{session()->get('success')}}
+                    </p>
+                @endif
             </div>
         </div>
 

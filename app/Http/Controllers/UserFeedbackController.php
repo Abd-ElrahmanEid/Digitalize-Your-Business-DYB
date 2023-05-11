@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Feedback;
 use Illuminate\Http\Request;
 
 class UserFeedbackController extends Controller
@@ -27,7 +28,14 @@ class UserFeedbackController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Feedback::create([
+            'tasklevel' =>$request['tasklevel'],
+            'rating' =>$request['rating'],
+            'recommendations' =>$request['recommendations'],
+            'user_id' =>auth()->user()->id,
+        ]);
+
+        return redirect()->back()->with('success','Thank you for your time');
     }
 
     /**
