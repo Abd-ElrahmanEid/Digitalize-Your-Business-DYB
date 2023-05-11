@@ -54,11 +54,11 @@
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
 
                     <li class="nav-item" >
-                        <a href="#"><i class="fa-solid fa-phone" style="color: #212529; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
+                        <a href="tel:01111628467"><i class="fa-solid fa-phone" style="color: #212529; font-size: 24px;  padding-top: 7px; padding-right: 30px;"></i></a>
                     </li>
 
                     <li class="nav-item" >
-                        <a href="#"><i class="fa-solid fa-envelope" style="color: #212529; font-size: 24px; padding-top: 7px; padding-right: 25px;"></i></a>
+                        <a href="mailto:eidabdelrahman958@gmail.com"><i class="fa-solid fa-envelope" style="color: #212529; font-size: 24px; padding-top: 7px; padding-right: 25px;"></i></a>
                     </li>
 
                     <!-- <li class="nav-item">
