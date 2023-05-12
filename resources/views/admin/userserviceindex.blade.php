@@ -48,8 +48,8 @@
                     </form>
                 </td>
                 <td>
-                    <a href="{{route('adminviewservice.edit',$service->id)}}" class="btn btn-secondary">
-                        update
+                    <a href="{{route('adminviewservice.edit',$service->id)}}" class="btn btn-success">
+                        Update
                     </a>
                 </td>
             </tr>

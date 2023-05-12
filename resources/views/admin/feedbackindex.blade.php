@@ -21,8 +21,8 @@
         @foreach($feedbacks as $feedback)
             <tr>
                 <th scope="row">{{$feedback->id}}</th>
-                <th scope="row">{{$feedback->user->name}}</th>
-                <th scope="row">{{$feedback->user->email}}</th>
+                <td>{{$feedback->user->name}}</td>
+                <td>{{$feedback->user->email}}</td>
                 <td>{{$feedback->tasklevel}}</td>
                 <td>{{$feedback->rating}}</td>
                 <td>{{$feedback->recommendations}}</td>

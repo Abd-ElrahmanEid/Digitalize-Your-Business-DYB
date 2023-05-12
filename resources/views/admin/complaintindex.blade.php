@@ -20,8 +20,8 @@
             <tr>
                 <th scope="row">{{$complaint->id}}</th>
                 <th scope="row">{{$complaint->user->name}}</th>
-                <th scope="row">{{$complaint->user->email}}</th>
-                <th scope="row">{{$complaint->content}}</th>
+                <td scope="row">{{$complaint->user->email}}</td>
+                <td scope="row">{{$complaint->content}}</td>
                 <td>
                     <form action="{{route('admincomplaint.destroy',$complaint->id)}}" method="post">
                         @csrf

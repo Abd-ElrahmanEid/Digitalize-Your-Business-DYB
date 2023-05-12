@@ -27,13 +27,13 @@
                 </td>
 
                 <td>
-                    <a class="btn btn-secondary" href="{{route('adminusers.create')}}">Add user</a>
+                    <a class="btn btn-success px-5 py-2" href="{{route('adminusers.create')}}">Add</a>
                 </td>
                 <td>
                     <form action="{{route('adminusers.destroy',$user->id)}}" method="post">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" class="btn btn-danger">
+                        <button type="submit" class="btn btn-danger px-4 py-2">
                             DELETE
                         </button>
                     </form>

@@ -37,12 +37,12 @@
 
                 </td>
                 <td>
-                    <a href="{{route('adminservice.show',$admin->id)}}" class="btn btn-secondary">
+                    <a href="{{route('adminservice.show',$admin->id)}}" class="btn btn-primary">
                         Show
                     </a>
                 </td>
                 <td>
-                    <a href="{{route('adminservice.edit',$admin->id)}}" class="btn btn-secondary">
+                    <a href="{{route('adminservice.edit',$admin->id)}}" class="btn btn-success text-white">
                         Update
                     </a>
                 </td>

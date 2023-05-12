@@ -12,29 +12,32 @@
     <!-- Core theme CSS (includes Bootstrap)-->
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="{{url('admin')}}">Home page</a>
+        <a class="navbar-brand" href="{{url('admin')}}">Dashboard</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="{{route('adminservice.create')}}">Add service</a></li>
-                <li class="nav-item"><a class="nav-link active" href="{{route('adminservice.index')}}">All services</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="{{route('adminservice.create')}}">Add Service</a></li>
+                <li class="nav-item"><a class="nav-link active" href="{{route('adminservice.index')}}">All Services</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Admin options</a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >More Options</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{{route('adminusers.create')}}">Add New User</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="{{route('adminusers.index')}}">All users</a></li>
-                        <li><a class="dropdown-item" href="{{route('adminviewservice.index')}}">view all services added by user</a></li>
-                        <li><a class="dropdown-item" href="{{route('admincomplaint.index')}}">view complaints</a></li>
-                        <li><a class="dropdown-item" href="{{route('adminfeedback.index')}}">view feedbacks</a></li>
+                        <li><a class="dropdown-item" href="{{route('adminusers.index')}}">View Users</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="{{route('adminviewservice.index')}}">view All Requests</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="{{route('admincomplaint.index')}}">view Complaints</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="{{route('adminfeedback.index')}}">view Feedbacks</a></li>
                     </ul>
                 </li>
             </ul>
             <form action="{{route('logout')}}" method="POST" class="mt-3">
                 @csrf
-                <button class="btn btn-dark">
+                <button class="btn btn-light py-2 px-5">
                     Logout
                 </button>
             </form>
