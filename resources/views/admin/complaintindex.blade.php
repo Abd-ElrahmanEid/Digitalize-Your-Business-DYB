@@ -19,9 +19,9 @@
         @foreach($complaints as $complaint)
             <tr>
                 <th scope="row">{{$complaint->id}}</th>
-                <th scope="row">{{$complaint->user->name}}</th>
-                <td scope="row">{{$complaint->user->email}}</td>
-                <td scope="row">{{$complaint->content}}</td>
+                <td>{{$complaint->user->name}}</td>
+                <td>{{$complaint->user->email}}</td>
+                <td>{{$complaint->content}}</td>
                 <td>
                     <form action="{{route('admincomplaint.destroy',$complaint->id)}}" method="post">
                         @csrf

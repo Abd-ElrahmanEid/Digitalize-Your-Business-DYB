@@ -163,7 +163,7 @@
         <div  class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
             <div class="mb-xl-3 cdiv" style="background: rgba(167,35,85,1); width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
-                <i class="fa-solid fa-flask" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
+                <i class="fa-solid fa-flask fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.100; font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
@@ -178,7 +178,7 @@
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5  mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 mt-sm-5 mb-xs-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
             <div class="mb-xl-3 cdiv" style="background: rgba(167,35,85,1); width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
-                <i class="fa-solid fa-bell-concierge" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
+                <i class="fa-solid fa-bell-concierge " style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
@@ -193,7 +193,7 @@
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mb-sm-5 mt-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
             <div class="mb-xl-3 cdiv" style="background: rgba(167,35,85,1); width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
-                <i class="fa-solid fa-handshake" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
+                <i class="fa-solid fa-handshake " style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 
@@ -209,7 +209,7 @@
         <div class="col-xl-5 col-lg-11 col-md-12 col-sm-12 mb-xl-5 mt-xl-5 mb-md-5 mt-md-5 mt-sm-5 sdiv" style=" position: relative; padding: 0 50px; border: 2px solid black; border-radius: 20px;" >
 
             <div class="mb-xl-3 cdiv" style="background: rgba(167,35,85,1); width: 100px; height: 100px; border-radius: 50%; position: absolute; bottom: 170px;">
-                <i class="fa-solid fa-mug-hot" style=" font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
+                <i class="fa-solid fa-mug-hot fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.100; font-size: 35px; display: flex; justify-content: center; padding-top: 28px; color: white;"></i>
             </div>
 
 

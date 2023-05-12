@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
 </head>
-<body>
+<body style="background-image: url({{'images/Gear2.png'}}); background-size: cover;">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container px-4 px-lg-5">
         <a class="navbar-brand" href="{{url('admin')}}">Dashboard</a>
