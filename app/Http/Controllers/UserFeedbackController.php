@@ -35,7 +35,7 @@ class UserFeedbackController extends Controller
             'user_id' =>auth()->user()->id,
         ]);
 
-        return redirect()->back()->with('success','Thank you for your time');
+        return redirect()->back()->with('done','Thank you for your time');
     }
 
     /**

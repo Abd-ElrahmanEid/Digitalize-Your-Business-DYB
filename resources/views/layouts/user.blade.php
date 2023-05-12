@@ -254,9 +254,9 @@
                     </form>
 
                 </ul>
-                @if(session()->has('success'))
+                @if(session()->has('done'))
                     <p style="color: greenyellow; margin-left: 30px">
-                        {{session()->get('success')}}
+                        {{session()->get('done')}}
                     </p>
                 @endif
             </div>
