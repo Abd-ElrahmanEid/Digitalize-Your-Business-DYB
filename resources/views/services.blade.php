@@ -54,7 +54,7 @@
             <div class="carousel-item">
                 <img src="{{asset("/images/cor4.png")}}" class="d-block w-100" alt="....">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Graphic Design</h1>
+                    <h1>UI/UX Design</h1>
                     <p>We Will achieve your goal with easy way</p>
                 </div>
             </div>

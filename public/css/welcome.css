@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 @font-face{
     font-family: Nolluqa;
     src: url('../fonts/NolluqapersonaluseRegular-VGMge.otf');

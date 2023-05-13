@@ -39,9 +39,11 @@
             </p>
         @endif
 
-        <div class="container">
+
+        <div class="container" style="background-image: url({{'../images/Gear2.png'}}); background-size: contain;">
             <div class="row" >
                 <div class="col-xl-8 bg-dark"  style="margin: auto; padding: 50px 50px; border-radius: 10px;">
+
 
                     <form action="{{route('userservice.store')}}" method="POST" >
                         @csrf
@@ -117,7 +119,6 @@
 
                     </form>
                 </div>
-
 
 
             </div>

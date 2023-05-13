@@ -184,7 +184,7 @@
 
             <h5 style="padding-top: 65px;"><span style="border: 2px solid rgba(167,35,85,1); margin-right: 20px;"></span>Attention to Detail</h5>
             <p style="padding-bottom: 40px; margin-top: 25px">
-                We take pride in my work, and pay attention to every detail to ensure that the end product of the highest quality
+                We take pride in my work, and pay attention to every detail to ensure that the end product of the highest quality.
             </p>
 
         </div>
@@ -199,7 +199,7 @@
 
             <h5 style="padding-top: 65px;"><span style="border: 2px solid rgba(167,35,85,1); margin-right: 20px;"></span>Communication</h5>
             <p style="padding-bottom: 40px; margin-top: 25px;">
-                We believe that clear and constant communication is crucial for the success of any project
+                We believe that clear and constant communication is crucial for the success of any project.
             </p>
 
         </div>
