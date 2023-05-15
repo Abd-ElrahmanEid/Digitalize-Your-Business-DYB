@@ -38,7 +38,7 @@
 
                 <div class="col-xl-7 col-lg-10 mb-lg-5 col-md-11 mb-md-5 col-sm-12 mb-sm-5 big" >
 
-                    <div style="background-image: url({{'images/side.png'}}); background-size: cover;" class="square" data-aos="fade-down">
+                    <div class="square" data-aos="fade-down">
 
                         <div  class="dot" data-aos="fade-down">
                             <i style="font-size: 40px; margin-top: 20px; color: white" class="fa-solid fa-handshake-angle"></i>
@@ -50,7 +50,7 @@
                     </div>
 
 
-                    <div style="background-image: url({{'images/side.png'}}); background-size: cover;" class="square" data-aos="fade-down">
+                    <div class="square" data-aos="fade-down">
 
                         <div class="dot" data-aos="fade-down">
                             <i style="font-size: 40px; margin-top: 20px; color: white " class="fa-solid fa-tty"></i>
