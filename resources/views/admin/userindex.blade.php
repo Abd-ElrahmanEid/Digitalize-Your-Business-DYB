@@ -27,7 +27,7 @@
                 </td>
 
                 <td>
-                    <a class="btn btn-success px-5 py-2" href="{{route('adminusers.create')}}">Add</a>
+                    <a class="btn btn-success px-5 py-2" href="{{route('adminusers.edit',$user->id)}}">update</a>
                 </td>
                 <td>
                     <form action="{{route('adminusers.destroy',$user->id)}}" method="post">

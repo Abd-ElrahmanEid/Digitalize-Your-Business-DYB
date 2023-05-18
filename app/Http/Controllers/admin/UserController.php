@@ -53,15 +53,18 @@ class UserController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $users = User::where('id',$id)->first();
+        return view('admin.userupdate',compact('users'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, int $id)
     {
-        //
+        $users = User::where('id',$id)->first();
+        $users->update($request->all());
+        return redirect()->route('adminusers.index')->with('success','service updated successfully');
     }
 
     /**
