@@ -64,7 +64,7 @@ class UserController extends Controller
     {
         $users = User::where('id',$id)->first();
         $users->update($request->all());
-        return redirect()->route('adminusers.index')->with('success','service updated successfully');
+        return redirect()->route('adminusers.index')->with('success','user updated successfully');
     }
 
     /**

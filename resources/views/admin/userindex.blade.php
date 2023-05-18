@@ -5,7 +5,15 @@
             {{session()->get('success')}}
         </p>
     @endif
+
+    <div class="d-flex justify-content-center mt-3 " style="margin-left: 950px">
+        <a class="btn btn-success py-2 px-5" href="{{route('adminusers.create')}}">
+            Add User
+        </a>
+    </div>
+
     <table class="container table mt-5">
+
         <thead>
         <tr>
             <th scope="col">#</th>
@@ -42,4 +50,6 @@
         @endforeach
         </tbody>
     </table>
+
+
 @endsection
