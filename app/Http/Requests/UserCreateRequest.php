@@ -25,12 +25,14 @@ class UserCreateRequest extends FormRequest
             'name'=>['required','string'],
             'email'=>['required','email','unique:users,email'],
             'password'=>['required','confirmed','min:8'],
+            'is_admin'=>['required']
         ];
     }
     public function messages()
     {
         return [
-            'password.confirmed'=>'password does not match the confirm password'
+            'password.confirmed'=>'password does not match the confirm password',
+            'is_admin.required'=>'user role is required'
         ];
     }
 }

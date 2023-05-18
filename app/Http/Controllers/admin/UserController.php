@@ -36,6 +36,7 @@ class UserController extends Controller
             'name'=>$request['name'],
             'email'=>$request['email'],
             'password'=>Hash::make($request['password']),
+            'is_admin'=>$request['is_admin']
         ]);
         return redirect()->route('adminusers.index')->with('success','user added successfully');
     }

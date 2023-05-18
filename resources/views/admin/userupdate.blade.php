@@ -19,21 +19,21 @@
             <div class="mb-3 row">
                 <label for="name" class="col-sm-2 col-form-label fw-bold">User Name</label>
                 <div class="col-sm-10">
-                    <input type="text"  class="form-control" id="name"  name="name" value="{{old('name')}}">
+                    <input type="text"  class="form-control" id="name"  name="name" value="{{old('name',$users->name)}}">
                 </div>
             </div>
 
             <div class="mb-3 row">
                 <label for="name" class="col-sm-2 col-form-label fw-bold">User E-Mail</label>
                 <div class="col-sm-10">
-                    <input type="text"  class="form-control" id="name"  name="email" value="{{old('email')}}">
+                    <input type="text"  class="form-control" id="name"  name="email" value="{{old('email',$users->email)}}">
                 </div>
             </div>
 
             <div class="mb-3 row">
-                <label for="name" class="col-sm-2 col-form-label fw-bold">User Role</label>
+                <label for="is_admin" class="col-sm-2 col-form-label fw-bold">User Role</label>
                 <div class="col-sm-10">
-                    <select name="is_admin" class="form-control" id="name">
+                    <select name="is_admin"  class="form-select" aria-label="Default select example" id="is_admin">
                         <option value="0">User</option>
                         <option value="1">Admin</option>
                     </select>

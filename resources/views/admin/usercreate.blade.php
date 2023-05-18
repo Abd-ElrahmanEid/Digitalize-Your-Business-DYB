@@ -39,6 +39,16 @@
                     <input type="password"  class="form-control" id="password_confirmation"  name="password_confirmation">
                 </div>
             </div>
+            <div class="mb-3 row">
+                <label for="is_admin" class="col-sm-2 col-form-label fw-bold">User Role</label>
+                <div class="col-sm-10">
+                    <select name="is_admin" class="form-select" aria-label="Default select example" id="is_admin">
+                        <option></option>
+                        <option value="0">User</option>
+                        <option value="1">Admin</option>
+                    </select>
+                </div>
+            </div>
             <button type="submit" class="btn btn-outline-dark mt-4" style="width: 450px; position: relative; left: 35%">
                 Create
             </button>
