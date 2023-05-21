@@ -31,9 +31,9 @@
         <!--section two-----------------------portfolio---------------------------------------------------------------------------------->
 
 
-        <!--project 1---------------------------------------------------->
+        <!--project 1----web development--------------------------------------------------->
 
-        <h2 style="text-align: center;">Project Name 1</h2> <br>
+        <h2 style="text-align: center;">Web Development</h2> <br>
 
         <div class="container-fluid">
             <div class="row d-flex justify-content-evenly">
@@ -42,29 +42,29 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-5 mb-md-5 col-sm-10 mb-sm-5 p-0 square" style="height: 80vh;">
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/w1.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/w4.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32.5%;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/w3.jpg'}}); background-size: cover; height: 32.5%;" data-aos="fade-right">
                     </div>
 
 
                 </div>
 
 
-                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10 mb-sm-5 square" style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 70vh;" data-aos="fade-down"></div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10 mb-sm-5 square" style="background-image: url({{'images/portfolio/w2.jpg'}}); background-size: cover; height: 70vh;" data-aos="fade-down"></div>
 
 
 
                 <div class="col-xl-3 col-lg-3 col-md-7 col-sm-10 p-0 square" style="height: 60vh;">
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 49%; margin-bottom: 10px;" data-aos="fade-left">
+                    <div style="background-image: url({{'images/portfolio/w5.jpg'}}); background-size: cover; height: 49%; margin-bottom: 10px;" data-aos="fade-left">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 49%;" data-aos="fade-left">
+                    <div style="background-image: url({{'images/portfolio/w6.jpg'}}); background-size: cover; height: 49%;" data-aos="fade-left">
                     </div>
 
                 </div>
@@ -76,10 +76,10 @@
 
 
 
-        <!--project 2---------------------------------------------------->
+        <!--project 2----mobile development------------------------------------------------>
 
 
-        <h2 style="text-align: center;">Project Name 2</h2> <br>
+        <h2 style="text-align: center;">Mobile Development</h2> <br>
 
         <div class="container-fluid">
             <div class="row d-flex justify-content-evenly">
@@ -88,29 +88,29 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-5 mb-md-5 col-sm-10 mb-sm-5 p-0 square" style="height: 80vh;">
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/m1.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/m2.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32.5%;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/m4.jpg'}}); background-size: cover; height: 32.5%;" data-aos="fade-right">
                     </div>
 
 
                 </div>
 
 
-                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10 mb-sm-5 square" style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 70vh;" data-aos="fade-down"></div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10 mb-sm-5 square" style="background-image: url({{'images/portfolio/m3.jpg'}}); background-size: cover; height: 70vh;" data-aos="fade-down"></div>
 
 
 
                 <div class="col-xl-3 col-lg-3 col-md-7 col-sm-10 p-0 square" style="height: 60vh;">
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 49%; margin-bottom: 10px;" data-aos="fade-left">
+                    <div style="background-image: url({{'images/portfolio/m5.jpg'}}); background-size: cover; height: 49%; margin-bottom: 10px;" data-aos="fade-left">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 49%;" data-aos="fade-left">
+                    <div style="background-image: url({{'images/portfolio/m6.jpg'}}); background-size: cover; height: 49%;" data-aos="fade-left">
                     </div>
 
                 </div>
@@ -122,10 +122,10 @@
 
 
 
-        <!--project 3---------------------------------------------------->
+        <!--project 3----ui/ux design------------------------------------------------>
 
 
-        <h2 style="text-align: center;">Project Name 3</h2> <br>
+        <h2 style="text-align: center;">UI/UX Design</h2> <br>
 
         <div class="container-fluid">
             <div class="row d-flex justify-content-evenly">
@@ -134,29 +134,29 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-5 mb-md-5 col-sm-10 mb-sm-5 p-0 square" style="height: 80vh;">
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/u4.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/u2.jpg'}}); background-size: cover; height: 32%; margin-bottom: 10px;" data-aos="fade-right">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 32.5%;" data-aos="fade-right">
+                    <div style="background-image: url({{'images/portfolio/u5.jpg'}}); background-size: cover; height: 32.5%;" data-aos="fade-right">
                     </div>
 
 
                 </div>
 
 
-                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10 mb-sm-5 square" style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 70vh;" data-aos="fade-down"></div>
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10 mb-sm-5 square" style="background-image: url({{'images/portfolio/u1.jpg'}}); background-size: cover; height: 70vh;" data-aos="fade-down"></div>
 
 
 
                 <div class="col-xl-3 col-lg-3 col-md-7 col-sm-10 p-0 square" style="height: 60vh;">
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 49%; margin-bottom: 10px;" data-aos="fade-left">
+                    <div style="background-image: url({{'images/portfolio/u3.jpg'}}); background-size: cover; height: 49%; margin-bottom: 10px;" data-aos="fade-left">
                     </div>
 
-                    <div style="background-image: url({{'images/laptop.jpg'}}); background-size: cover; height: 49%;" data-aos="fade-left">
+                    <div style="background-image: url({{'images/portfolio/u6.jpg'}}); background-size: cover; height: 49%;" data-aos="fade-left">
                     </div>
 
                 </div>
