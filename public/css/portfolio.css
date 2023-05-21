@@ -8,6 +8,11 @@ body{
     overflow-x: hidden;
 }
 
+::selection{
+    color: white;
+    background-color: #a72355;
+}
+
 @font-face{
     font-family: Nolluqa;
     src: url('../fonts/NolluqapersonaluseRegular-VGMge.otf');

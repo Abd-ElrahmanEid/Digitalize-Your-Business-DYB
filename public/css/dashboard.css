@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+::selection{
+    color: white;
+    background-color: #a72355;
+}
 
 @font-face{
     font-family: Nolluqa;
