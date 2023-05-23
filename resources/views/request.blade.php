@@ -83,7 +83,7 @@
 
                     <!-- services -->
                     <label class="text" for="">What DYB service(s) are you interested in ? </label><br>
-                    <input class="input" type="text" placeholder="What's your services ?" name="service">
+                    <input class="input" type="text" placeholder="Write N/A if the company don't have one ?" name="service">
 
                     <br><br>
 
