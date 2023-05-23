@@ -24,8 +24,8 @@
                 </a>
             </div>
 
-            <div class="w-full sm:max-w-md mt-6 px-4 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg" style="background-color: rgba(219, 112, 147, 0.5);">
-                <div style="background-image: url({{'images/corner.png'}}); background-size: cover; border: 1px solid white; border-radius: 5px" class="px-6 py-4" >
+            <div class="w-full sm:max-w-md mt-6 px-4 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg" style="border: 1px solid black; border-radius: 5px;">
+                <div style="background-color: white; border: 1px solid black; border-radius: 5px" class="px-6 py-4" >
                     {{ $slot }}
                 </div>
             </div>
