@@ -227,7 +227,9 @@
                                 <option value="Very Good">Very Good</option>
                                 <option value="Weak">Weak</option>
                             </select>
+
                         </ol>
+
 
 
                         <ol class="fw-lighter pb-2 p-sm-0 " style="margin-bottom: 15px">
@@ -240,6 +242,7 @@
                                 <option value="4">4</option>
                                 <option value="5">5</option>
                             </select>
+
                         </ol>
 
 
@@ -247,6 +250,9 @@
                         <ol class="fw-lighter pb-2 p-sm-0 ">How we can improve our services ?  </ol>
                         <ol class="pb-2 p-sm-0 ">
                             <input type="text" name="recommendations" placeholder="Recommendations" style="width: 90%; height: 5vh; margin-top: 7px; color: black; border-radius: 10px"><br>
+                            @error('recommendations')
+                            <p style="color:red; padding-top: 10px">{{$message}}</p>
+                            @enderror
                             <button class="send">
                                 Send
                             </button>

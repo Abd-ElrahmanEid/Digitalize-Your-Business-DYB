@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UserFeedbackRequest;
 use App\Models\Feedback;
 use Illuminate\Http\Request;
 
@@ -26,7 +27,7 @@ class UserFeedbackController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(UserFeedbackRequest $request)
     {
         Feedback::create([
             'tasklevel' =>$request['tasklevel'],

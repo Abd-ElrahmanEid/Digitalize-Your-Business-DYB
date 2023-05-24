@@ -116,13 +116,17 @@
 
                     <h2 style="text-align: center; padding-top: 40px; color: white">Your Complaint</h2><br>
 
-                    <textarea class="input4" name="content" placeholder="Tell us your problem !?"></textarea> <br><br>
+                    <textarea class="input4" name="content" placeholder="Tell us your problem !?"></textarea><br><br>
 
                     <button class="sub">
                         Submit
                     </button>
 
                     </form>
+
+                    @error('content')
+                    <p style="color: white; padding-top: 10px">{{$message}}</p>
+                    @enderror
 
                     @if(session()->has('success'))
                         <p style="color: white; font-size: 20px; margin-top: 17px">

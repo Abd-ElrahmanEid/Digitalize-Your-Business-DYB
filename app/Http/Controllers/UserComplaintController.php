@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UserComplaintsRequest;
 use App\Models\Communicate;
 use Illuminate\Http\Request;
 
@@ -26,7 +27,7 @@ class UserComplaintController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(UserComplaintsRequest $request)
     {
         Communicate::create([
             'content' => $request['content'],
