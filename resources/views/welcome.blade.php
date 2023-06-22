@@ -381,21 +381,29 @@
         <div class="row justify-content-center">
 
             <div class="links">
-                <i class="fa-brands fa-facebook icon"></i>
+                <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook icon"></i>
+                </a>
             </div>
 
             <div class="links">
-                <i class="fa-brands fa-instagram icon"></i>
+                <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram icon"></i>
+                </a>
             </div>
 
 
             <div class="links">
-                <i class="fa-brands fa-github icon"></i>
+                <a href="https://github.com/">
+                    <i class="fa-brands fa-github icon"></i>
+                </a>
             </div>
 
 
             <div class="links">
-                <i class="fa-brands fa-linkedin icon"></i>
+                <a href="https://www.linkedin.com/feed/">
+                    <i class="fa-brands fa-linkedin icon"></i>
+                </a>
             </div>
 
         </div> <br><br>

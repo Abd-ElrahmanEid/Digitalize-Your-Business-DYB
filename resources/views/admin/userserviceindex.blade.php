@@ -9,6 +9,7 @@
         <thead>
         <tr>
             <th scope="col">#</th>
+            <th scope="col">Customer name</th>
             <th scope="col">Company name</th>
             <th scope="col">Company website</th>
             <th scope="col">Phone number</th>
@@ -18,7 +19,6 @@
             <th scope="col">Meeting date</th>
             <th scope="col">Meeting time</th>
             <th scope="col">Comments</th>
-            <th scope="col">Customer name</th>
             <th scope="col">Delete</th>
             <th scope="col">Update</th>
 
@@ -28,6 +28,7 @@
         @foreach($services as $service)
             <tr>
                 <th scope="row">{{$service->id}}</th>
+                <td>{{$service->user->name}}</td>
                 <td>{{$service->companyname}}</td>
                 <td>{{$service->companywebsite}}</td>
                 <td>{{$service->phone}}</td>
@@ -37,7 +38,6 @@
                 <td>{{$service->date}}</td>
                 <td>{{$service->time}}</td>
                 <td>{{$service->comments}}</td>
-                <td>{{$service->user->name}}</td>
                 <td>
                     <form action="{{route('adminviewservice.destroy',$service->id)}}" method="post">
                         @csrf

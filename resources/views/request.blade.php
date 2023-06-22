@@ -65,25 +65,25 @@
                     <br><br>
 
                     <label class="text" for="">Company Website :</label><br>
-                    <input class="input" type="text" placeholder="Company URL" name="companywebsite">
+                    <input class="input" type="text" placeholder="Write N/A if you don't have a website" name="companywebsite">
 
                     <br><br>
 
                     <label class="text" for="">Phone Number :</label><br>
-                    <input class="input" type="number" placeholder="Your Phone" name="phone">
+                    <input class="input" type="number" placeholder="01-X-XX-XX-XX-XX" name="phone">
 
 
                     <br><br>
 
                     <!-- annual revenue -->
                     <label class="text" for="">What's your approximate annual revenue ? </label><br>
-                    <input class="input" type="number" placeholder="Approximate Profit ?" name="annualrevenues">
+                    <input class="input" type="number" placeholder="Approximate Profit" name="annualrevenues">
 
                     <br><br>
 
                     <!-- services -->
                     <label class="text" for="">What DYB service(s) are you interested in ? </label><br>
-                    <input class="input" type="text" placeholder="Write N/A if the company don't have one ?" name="service">
+                    <input class="input" type="text" placeholder="Write N/A if the company don't have one" name="service">
 
                     <br><br>
 
